@@ -1,6 +1,6 @@
 {
   "name": "next-boilerplate",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Easy to use front-end boilerplate to start developing your Next.js application right away",
   "scripts": {
     "dev": "next dev",
@@ -65,6 +65,7 @@
   },
   "lint-staged": {
     "*.@(ts|tsx)": [
+      "yarn lint",
       "yarn lint",
       "yarn lint:css",
       "yarn format"
