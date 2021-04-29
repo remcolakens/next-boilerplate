@@ -2,6 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "@/svgs": ["./svgs/@generated/index.tsx"],
       "@/components/*": ["./components/*"]
     },
     "target": "esnext",

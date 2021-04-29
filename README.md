@@ -68,7 +68,6 @@ yarn lint:all
 yarn build
 ```
 
-
 ## Learn More
 
 To learn more about Next.js and the other tools, take a look at the following resources:
@@ -91,4 +90,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 - [ ] Add more examples
 
 ## License
+
 MIT

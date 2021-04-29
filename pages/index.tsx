@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Cat from '../svgs/cat.svg'
+import { Cat } from '@/svgs'
 import { Container, Row, Col, media } from 'styled-bootstrap-grid'
 
 const Title = styled.h1`
