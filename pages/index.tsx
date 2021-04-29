@@ -19,7 +19,7 @@ export const Home: React.FC = () => {
           <Title>My page</Title>
         </Col>
         <Col col xl={6} xs={12}>
-          <Cat />
+          <Cat fill="blue" />
         </Col>
       </Row>
     </Container>

@@ -1,13 +1,13 @@
 {
   "name": "next-boilerplate",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Easy to use front-end boilerplate to start developing your Next.js application right away",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "generate": "generate",
-    "generate:svg": "npx @svgr/cli -d svgs/@generated svgs --typescript",
+    "generate:svg": "npx @svgr/cli -d svgs/@generated svgs --typescript --memo",
     "type-check": "tsc --pretty --noEmit",
     "format": "prettier --write .",
     "lint": "eslint . --ext ts --ext tsx --ext js",

@@ -11,4 +11,5 @@ function SvgCat(props: React.SVGProps<SVGSVGElement>) {
   )
 }
 
-export default SvgCat
+const MemoSvgCat = React.memo(SvgCat)
+export default MemoSvgCat
