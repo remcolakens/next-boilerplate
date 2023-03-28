@@ -1,16 +1,24 @@
-
-
 ## 2.0.0 (2023-03-28)
-
 
 ### ⚠ BREAKING CHANGES
 
-* You can only submit your code now by using conventional commits and pnpm please
-check the docs
+- You can only submit your code now by using conventional commits and pnpm please
+  check the docs
 
 ### 🏡 Chore
 
-* migrate next-boilerplate v1 to v2 ([a34e5f9](https://github.com/remcolakens/next-boilerplate/commit/a34e5f9898844b45e1da6933de7b532a21bc1dd1))
+- migrate next-boilerplate v1 to v2 ([09d4746](https://github.com/remcolakens/next-boilerplate/commit/09d4746173adfdc5b44d5a5a2e60cfd597775614))
+
+## 2.0.0 (2023-03-28)
+
+### ⚠ BREAKING CHANGES
+
+- You can only submit your code now by using conventional commits and pnpm please
+  check the docs
+
+### 🏡 Chore
+
+- migrate next-boilerplate v1 to v2 ([a34e5f9](https://github.com/remcolakens/next-boilerplate/commit/a34e5f9898844b45e1da6933de7b532a21bc1dd1))
 
 ## [2.0.1](https://github.com/remcolakens/next-boilerplate/compare/v2.0.0...v2.0.1) (2023-03-28)
 
