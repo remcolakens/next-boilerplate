@@ -1,0 +1,9 @@
+node_modules
+**/.next/**
+**/_next/**
+**/dist/**
+**/__tmp__/**
+yarn.lock
+package-lock.json
+public
+pnpm-lock.yaml
