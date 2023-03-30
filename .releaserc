@@ -45,7 +45,8 @@
 						},
 						{
 							"type": "chore",
-							"section": "🏡 Chore"
+							"section": "🏡 Chore",
+							"hidden": true
 						},
 						{
 							"type": "examples",
@@ -82,7 +83,7 @@
 		[
 			"@semantic-release/git",
 			{
-				"message": "v${nextRelease.version}\n\n",
+				"message": "chore: release v${nextRelease.version}\n\n",
 				"assets": [
 					"package.json",
 					"docs/CHANGELOG.md"
