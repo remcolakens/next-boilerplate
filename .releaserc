@@ -82,7 +82,7 @@
 		[
 			"@semantic-release/git",
 			{
-				"message": "v${nextRelease.version}\n\n[skip ci]",
+				"message": "v${nextRelease.version}\n\n",
 				"assets": [
 					"package.json",
 					"docs/CHANGELOG.md"
