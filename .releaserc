@@ -1,0 +1,94 @@
+{
+	"branches": [
+		"main",
+		{
+			"name": "beta",
+			"channel": "beta",
+			"prerelease": true
+		}
+	],
+	"plugins": [
+		"@semantic-release/commit-analyzer",
+		[
+			"@semantic-release/release-notes-generator",
+			{
+				"preset": "conventionalcommits",
+				"presetConfig": {
+					"types": [
+						{
+							"type": "feat",
+							"section": "🚀 Features"
+						},
+						{
+							"type": "perf",
+							"section": "🏎 Performance"
+						},
+						{
+							"type": "fix",
+							"section": "🐞 Bug Fixes"
+						},
+						{
+							"type": "refactor",
+							"section": "💅 Refactors"
+						},
+						{
+							"type": "docs",
+							"section": "📖 Documentation"
+						},
+						{
+							"type": "build",
+							"section": "📦 Build"
+						},
+						{
+							"type": "types",
+							"section": "🌊 Types"
+						},
+						{
+							"type": "chore",
+							"section": "🏡 Chore"
+						},
+						{
+							"type": "examples",
+							"section": "🏀 Examples"
+						},
+						{
+							"type": "test",
+							"section": "✅ Tests"
+						},
+						{
+							"type": "style",
+							"section": "🎨 Styles"
+						},
+						{
+							"type": "ci",
+							"section": "🤖 CI"
+						}
+					]
+				}
+			}
+		],
+		[
+			"@semantic-release/changelog",
+			{
+				"changelogFile": "docs/CHANGELOG.md"
+			}
+		],
+		[
+			"@semantic-release/npm",
+			{
+				"npmPublish": false
+			}
+		],
+		[
+			"@semantic-release/git",
+			{
+				"message": "v${nextRelease.version}\n\n[skip ci]",
+				"assets": [
+					"package.json",
+					"docs/CHANGELOG.md"
+				]
+			}
+		],
+		"@semantic-release/github"
+	]
+}

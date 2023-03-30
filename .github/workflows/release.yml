@@ -2,13 +2,6 @@ name: release
 
 on:
   workflow_dispatch:
-    inputs:
-      choice:
-        type: choice
-        description: What kind of release do you want to create?
-        options:
-          - beta
-          - prod
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -18,34 +11,17 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - name: Check main branch
-        if: github.event_name == 'workflow_dispatch' && github.ref != 'refs/heads/main'
-        run: |
-          echo "This workflow should not be triggered with workflow_dispatch on a branch other than main"
-          exit 1
-
-      - name: Checkout Code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          token: ${{ secrets.PAT }}
+          persist-credentials: false
 
       - uses: ./.github/actions/setup
-
-      - name: Git config
-        run: |
-          git config --global user.name "${GITHUB_ACTOR}"
-          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
 
       - name: Install
         run: pnpm install
 
-      - name: Make release
-        run: |
-          if [ "${{ github.event.inputs.choice }}" = "beta" ]; then
-            pnpm release --preRelease=beta
-          else
-            pnpm release
-          fi
+      - name: Release
+        run: pnpm release
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
