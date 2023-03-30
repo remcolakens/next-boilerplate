@@ -17,7 +17,7 @@
 - Automatically formats your code by using `Prettier`
 - JavaScript Testing Framework
 - Friendly errors & warnings
-- Automated releases with `release-it` and `Github Actions`
+- Automated releases with `semantic-release` and `Github Actions`
 - Includes Chakra UI to quickly build user-friendly interfaces
 - Automatically optimizes all your SVGs
 
@@ -35,6 +35,7 @@
 │   └── molecules             # Molecules  (e.g. wrappers, combined atoms)
 │   └── organisms             # Organisms (e.g. carousels, content blocks)
 ├── docs                      # Documentation
+│   └── CHANGELOG.md          # the changelog
 │   └── ci.md                 # docs for CI
 │   └── commit-convention.md  # docs for commit convention
 ├── pages                     # Pages folder
@@ -60,7 +61,7 @@
 ├── .nvmrc                    # Compatible node version
 ├── .prettierignore           # Files that will be ignored by Prettier (package)
 ├── .priettierc               # Prettier config (package)
-├── .release-it.json          # release it config
+├── .releaserc                # semantic-release config
 ├──  commitlint.config.js     # commitlint config (package)
 ├──  jest.config.js           # Config file for jest
 ├──  jest.setup.js            # Used for __tests__/testing-library.js
@@ -116,6 +117,7 @@ To learn more about Next.js and the other tools, take a look at the following re
 - [React Testing Library](https://testing-library.com/docs/) - Simple and complete testing utilities that encourage good
   testing practices
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) - A specification for adding human and machine readable meaning to commit messages
+- [semantic-release](https://github.com/semantic-release/semantic-release) - Fully automated version management and package publishing
 
 ## Deploy
 
@@ -127,6 +129,7 @@ from the creators of Next.js.
 
 ## Documentation
 
+- [CHANGELOG](/docs/CHANGELOG.md) - Changelog with all notable changes made to a project
 - [CI](/docs/ci.md) - Short explanation of the continuous integration process
 - [Commit Convention](/docs/commit-convention.md) - Short introduction of the commit convention
 

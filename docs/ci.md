@@ -9,7 +9,7 @@ Feel free to adjust the workflows to your own requirements, you can find all of 
 To ensure code quality it's a common practice to create a set of rules that will apply to the `main` branch.
 It's highly recommended that you only submit your code by using pull request and never push directly into the `main` branch.
 
-To automate the release process, we will be using the "Github Actions Bot" and it is also affected by these rules.
+To automate the release process, we will be using the GitHub bots and they are also affected by these rules.
 Below I will describe the workaround, we are going to give the bot administrator privileges so it will be able to bypass all of the rule sets.
 
 - As administrator, create a classic [Personal Access Token](https://github.com/settings/tokens) with "repo" rights
@@ -18,6 +18,6 @@ Below I will describe the workaround, we are going to give the bot administrator
 - Click on: Secrets and variables -> Actions
 - Now click on the button: "New repository secret"
 - Configure the name as: `PAT`, copy your generated token and set expiration time
+- Under Actions -> release, you will see the button: "Run workflow" this will start the release on the CI
 
-Alternatively you can also go with a different strategy where you manually create the release by using `pnpm release` and then submit the code by pull-request.
-While using this strategy do not squash your commits otherwise your release commit might get lost.
+Alternatively you can also create manually releases by using `pnpm release --no-ci` in this case it will use your local machine git variables and tokens.
