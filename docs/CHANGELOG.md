@@ -1,3 +1,17 @@
+## [2.1.0](https://github.com/remcolakens/next-boilerplate/compare/v2.0.0...v2.1.0) (2023-03-30)
+
+### 🚀 Features
+
+- add semantic-release ([#3](https://github.com/remcolakens/next-boilerplate/issues/3)) ([3da69a2](https://github.com/remcolakens/next-boilerplate/commit/3da69a2cc3e0f3d1c07d0249b44736e9e1a481e2))
+
+### 🐞 Bug Fixes
+
+- remove skip ci ([#4](https://github.com/remcolakens/next-boilerplate/issues/4)) ([e4f281f](https://github.com/remcolakens/next-boilerplate/commit/e4f281f96ea7738139c84ddd77844de9b587ff83))
+
+### 🏡 Chore
+
+- **deps:** update all non-major dependencies ([#5](https://github.com/remcolakens/next-boilerplate/issues/5)) ([ebf038d](https://github.com/remcolakens/next-boilerplate/commit/ebf038dced5f9e02cf0384c51c3b832b9c8bc35e))
+
 ## 2.0.0 (2023-03-28)
 
 ### ⚠ BREAKING CHANGES
