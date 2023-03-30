@@ -1,3 +1,9 @@
+## [2.1.1](https://github.com/remcolakens/next-boilerplate/compare/v2.1.0...v2.1.1) (2023-03-30)
+
+### 🐞 Bug Fixes
+
+- add semantic commit ([#6](https://github.com/remcolakens/next-boilerplate/issues/6)) ([d6c4d36](https://github.com/remcolakens/next-boilerplate/commit/d6c4d36186bf8cb2e2e4fb59b0ba7e339e2c3f14))
+
 ## [2.1.0](https://github.com/remcolakens/next-boilerplate/compare/v2.0.0...v2.1.0) (2023-03-30)
 
 ### 🚀 Features
