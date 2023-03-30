@@ -129,6 +129,7 @@ from the creators of Next.js.
 
 ## Documentation
 
+- [CHANGELOG](/docs/CHANGELOG.md) - Changelog with all notable changes made to a project
 - [CI](/docs/ci.md) - Short explanation of the continuous integration process
 - [Commit Convention](/docs/commit-convention.md) - Short introduction of the commit convention
 
