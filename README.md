@@ -35,6 +35,7 @@
 │   └── molecules             # Molecules  (e.g. wrappers, combined atoms)
 │   └── organisms             # Organisms (e.g. carousels, content blocks)
 ├── docs                      # Documentation
+│   └── CHANGELOG.md          # the changelog
 │   └── ci.md                 # docs for CI
 │   └── commit-convention.md  # docs for commit convention
 ├── pages                     # Pages folder
