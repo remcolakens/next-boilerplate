@@ -4,7 +4,7 @@
 		"config:base",
 		"group:allNonMajor",
 		":semanticCommitTypeAll(chore)",
-		"schedule:earlyMondays"
+		"schedule:weekly"
 	],
 	"labels": ["dependencies"],
 	"rangeStrategy": "bump",
