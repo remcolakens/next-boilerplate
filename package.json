@@ -26,7 +26,7 @@
 		"@remcolakens/simple-component-generator": "^1.0.5",
 		"@semantic-release/changelog": "^6.0.3",
 		"@semantic-release/git": "^10.0.1",
-		"@svgr/cli": "^7.0.0",
+		"@svgr/cli": "^8.0.1",
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/react": "^14.0.0",
 		"@testing-library/user-event": "^14.4.3",
