@@ -31,7 +31,7 @@
 		"@testing-library/react": "^14.0.0",
 		"@testing-library/user-event": "^14.4.3",
 		"@types/jest": "29.5.1",
-		"@types/node": "^18.16.7",
+		"@types/node": "^18.16.9",
 		"@types/react": "^18.2.6",
 		"@types/react-dom": "^18.2.4",
 		"@types/testing-library__jest-dom": "5.14.5",
@@ -40,7 +40,7 @@
 		"babel-jest": "^29.5.0",
 		"commitizen": "^4.3.0",
 		"eslint": "^8.40.0",
-		"eslint-config-next": "^13.4.1",
+		"eslint-config-next": "^13.4.2",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-plugin-prettier": "4.2.1",
 		"eslint-plugin-testing-library": "^5.11.0",
@@ -60,7 +60,7 @@
 		"@emotion/react": "^11.11.0",
 		"@emotion/styled": "^11.11.0",
 		"framer-motion": "^10.12.10",
-		"next": "^13.4.1",
+		"next": "^13.4.2",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-use": "^17.4.0"
@@ -68,5 +68,5 @@
 	"engines": {
 		"node": ">=v18.16.0"
 	},
-	"packageManager": "pnpm@8.5.0"
+	"packageManager": "pnpm@8.5.1"
 }
