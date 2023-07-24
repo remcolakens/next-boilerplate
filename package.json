@@ -20,18 +20,18 @@
 		"test": "jest"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^17.6.6",
-		"@commitlint/config-conventional": "^17.6.6",
-		"@commitlint/cz-commitlint": "^17.5.0",
+		"@commitlint/cli": "^17.6.7",
+		"@commitlint/config-conventional": "^17.6.7",
+		"@commitlint/cz-commitlint": "^17.6.7",
 		"@remcolakens/simple-component-generator": "^1.0.5",
 		"@semantic-release/changelog": "^6.0.3",
 		"@semantic-release/git": "^10.0.1",
 		"@svgr/cli": "^8.0.1",
-		"@testing-library/jest-dom": "^5.16.5",
+		"@testing-library/jest-dom": "^5.17.0",
 		"@testing-library/react": "^14.0.0",
 		"@testing-library/user-event": "^14.4.3",
 		"@types/jest": "29.5.3",
-		"@types/node": "^18.16.19",
+		"@types/node": "^18.17.0",
 		"@types/react": "^18.2.15",
 		"@types/react-dom": "^18.2.7",
 		"@types/testing-library__jest-dom": "5.14.8",
@@ -40,7 +40,7 @@
 		"babel-jest": "^29.6.1",
 		"commitizen": "^4.3.0",
 		"eslint": "^8.45.0",
-		"eslint-config-next": "^13.4.10",
+		"eslint-config-next": "^13.4.12",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-plugin-prettier": "4.2.1",
 		"eslint-plugin-testing-library": "^5.11.0",
@@ -55,18 +55,18 @@
 		"typescript": "^5.1.6"
 	},
 	"dependencies": {
-		"@chakra-ui/react": "^2.7.1",
-		"@chakra-ui/theme-tools": "2.0.18",
+		"@chakra-ui/react": "^2.8.0",
+		"@chakra-ui/theme-tools": "2.1.0",
 		"@emotion/react": "^11.11.1",
 		"@emotion/styled": "^11.11.0",
-		"framer-motion": "^10.12.21",
-		"next": "^13.4.10",
+		"framer-motion": "^10.13.0",
+		"next": "^13.4.12",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-use": "^17.4.0"
 	},
 	"engines": {
-		"node": ">=v18.16.1"
+		"node": ">=v18.17.0"
 	},
-	"packageManager": "pnpm@8.6.7"
+	"packageManager": "pnpm@8.6.10"
 }
