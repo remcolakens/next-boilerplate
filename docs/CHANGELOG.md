@@ -1,3 +1,9 @@
+## [2.2.0](https://github.com/remcolakens/next-boilerplate/compare/v2.1.1...v2.2.0) (2023-10-02)
+
+### 🚀 Features
+
+- prettier v3 ([#43](https://github.com/remcolakens/next-boilerplate/issues/43)) ([ef06b96](https://github.com/remcolakens/next-boilerplate/commit/ef06b966029cfa390e53e3bee7257140e646c486))
+
 ## [2.1.1](https://github.com/remcolakens/next-boilerplate/compare/v2.1.0...v2.1.1) (2023-03-30)
 
 ### 🐞 Bug Fixes
