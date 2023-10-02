@@ -48,7 +48,7 @@
 		"inquirer": "8.2.6",
 		"jest": "^29.7.0",
 		"jest-environment-jsdom": "^29.7.0",
-		"lint-staged": "^13.3.0",
+		"lint-staged": "^14.0.1",
 		"prettier": "^2.8.8",
 		"prettier-plugin-organize-imports": "^3.2.3",
 		"semantic-release": "^22.0.5",
