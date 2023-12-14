@@ -1,10 +1,9 @@
-import { screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import Home from '../pages/index';
-import { renderWithChakra } from './utils';
 
 describe('Home', () => {
 	it('renders a heading', () => {
-		renderWithChakra(<Home />);
+		render(<Home />);
 
 		expect(
 			screen.getByRole('heading', {
@@ -14,7 +13,7 @@ describe('Home', () => {
 	});
 
 	it('renders a text row', () => {
-		renderWithChakra(<Home />);
+		render(<Home />);
 		expect(screen.getByText('(xs) This is default text!')).toBeInTheDocument();
 	});
 });

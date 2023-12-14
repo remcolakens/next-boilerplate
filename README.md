@@ -18,7 +18,7 @@
 - JavaScript Testing Framework
 - Friendly errors & warnings
 - Automated releases with `semantic-release` and `Github Actions`
-- Includes Chakra UI to quickly build user-friendly interfaces
+- Includes Tailwind CSS & shadcn/ui to quickly build user-friendly interfaces
 - Automatically optimizes all your SVGs
 
 ## File Tree
