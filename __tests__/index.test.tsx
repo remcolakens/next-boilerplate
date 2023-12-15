@@ -1,5 +1,8 @@
+/**
+ * @jest-environment jsdom
+ */
+import Home from '@/app/page';
 import { render, screen } from '@testing-library/react';
-import Home from '../pages/index';
 
 describe('Home', () => {
 	it('renders a heading', () => {
@@ -7,13 +10,17 @@ describe('Home', () => {
 
 		expect(
 			screen.getByRole('heading', {
-				name: 'Welcome to your Next.js Boilerplate',
+				name: 'Get started by editing app/page.tsx',
 			})
 		).toBeInTheDocument();
 	});
 
 	it('renders a text row', () => {
 		render(<Home />);
-		expect(screen.getByText('(xs) This is default text!')).toBeInTheDocument();
+		expect(
+			screen.getByText(
+				'Find in-depth information about Next.js features and API.'
+			)
+		).toBeInTheDocument();
 	});
 });

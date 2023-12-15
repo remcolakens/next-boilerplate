@@ -1,4 +1,4 @@
-// eslint-disable-next-line
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const nextJest = require('next/jest');
 
 const createJestConfig = nextJest({
@@ -9,14 +9,7 @@ const createJestConfig = nextJest({
 // Add any custom config to be passed to Jest
 const customJestConfig = {
 	setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
-	testPathIgnorePatterns: ['<rootDir>/__tests__/utils/index.tsx'],
-	moduleNameMapper: {
-		// Handle module aliases (this will be automatically configured for you soon)
-		'^@/svgs': '<rootDir>/svgs/@generated/index.ts',
-		'^@/styles/(.*)$': '<rootDir>/styles/$1',
-		'^@/components/(.*)$': '<rootDir>/components/$1',
-	},
-	testEnvironment: 'jest-environment-jsdom',
+	testEnvironment: 'jsdom',
 };
 
 // createJestConfig is exported this way to ensure that next/jest can load the Next.js config which is async
