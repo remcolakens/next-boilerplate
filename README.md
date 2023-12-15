@@ -9,7 +9,6 @@
 ## Highlights
 
 - Features all of the benefits of Next.js
-- Uses Emotion for CSS-in-JS
 - Typescript support
 - Blazing fast package manager
 - Lint your code with `husky` & `lint-staged`
@@ -25,34 +24,24 @@
 
 ```bash
 ├── __tests__                 # Test folder
-│   └── utils                 # Utils folder for tests
-│       └── index.tsx         # Main file for the test utils
+│   └── __snapshots__         # Snapshot folder
+│       └── snapshot.tsx.snap # The saved snapshots
 │   └── index.test.tsx        # Sample test file
 ├── .github                   # Workflows for Github Actions
 ├── .husky                    # Git hooks
-├── components                # Component folder
-│   └── atoms                 # Atoms (e.g. <a>, <h1>)
-│   └── molecules             # Molecules  (e.g. wrappers, combined atoms)
-│   └── organisms             # Organisms (e.g. carousels, content blocks)
+├── app                    		# Pages folder
+│   ├── components            # Components folder
+│   ├── svgs		              # SVG folder
+│   ├── favicon.ico           # The favicon
+│   ├── globals.css           # The main css file to configure globals such a tailwind
+│   ├── layout.tsx          	# The main layout files
+│   └── page.tsx              # Sample page
 ├── docs                      # Documentation
 │   └── CHANGELOG.md          # the changelog
 │   └── ci.md                 # docs for CI
 │   └── commit-convention.md  # docs for commit convention
-├── pages                     # Pages folder
-│   ├── _app.tsx              # Main page file
-│   └── index.tsx             # Sample index page
 ├── public                    # Folder for static assets
-│   └── favicon               # Favicon - https://realfavicongenerator.net/
-├── styles                    # Style folder
-│   └── components            # Styles for the custom components
-│       └── buttonStyles      # Example file for custom button styles
-│   └── global.ts             # global styles
-│   └── themes.ts             # Themes
-├── svgs                      # SVG folder
-│   └── @generated            # the folder for the generated SVGs
-│   └── cat.svg               # Example svg
-├── types                     # Types folder
-│   └── index.d.ts            # Your default project Typescript declaration file
+├── .czrc					            # Config to commitizen
 ├── .editorconfig             # Config to normalize editors
 ├── .env.example              # Example file with required .env variables
 ├── .eslintrc.json            # Eslint config
@@ -60,17 +49,20 @@
 ├── .lintstagedrc.js          # Config file for "lint-staged" (package)
 ├── .nvmrc                    # Compatible node version
 ├── .prettierignore           # Files that will be ignored by Prettier (package)
-├── .priettierc               # Prettier config (package)
+├── .prettierrc               # Prettier config (package)
 ├── .releaserc                # semantic-release config
+├──  CODE_OF_CONDUCT		     	# the CODE OF CONDUCT
 ├──  commitlint.config.js     # commitlint config (package)
 ├──  jest.config.js           # Config file for jest
 ├──  jest.setup.js            # Used for __tests__/testing-library.js
+├──  LICENSE			            # License information
 ├──  next-env.d.ts            # Next.js Typescript declaration file (leave unchanged)
-├──  next.config.js           # the next.js config
 ├──  package.json             # The package.json of this project
+├──  pnpm-lock.yaml           # Lock file for packages (leave unchanged)
+├──  postcss.config.js        # the postcss config file
 ├──  README.md                # README documentation
-├──  tsconfig.json            # Typescript config
-└──  pnpm-lock.yaml           # Lock file for packages (leave unchanged)
+├──  tailwind.config.ts       # the tailwind css config
+└──  tsconfig.json            # Typescript config
 ```
 
 ## Usage
@@ -109,7 +101,7 @@ To learn more about Next.js and the other tools, take a look at the following re
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Typescript](https://www.typescriptlang.org/docs) - Introduction to TypeScript
 - [pnpm](https://pnpm.io/) - Fast, disk space efficient package manager
-- [Emotion](https://emotion.sh/docs) - Use the best bits of ES6 and CSS to style your apps without stress
+- [Tailwind CSS](https://tailwindcss.com/docs/) - A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup.
 - [Eslint](https://eslint.org/docs/user-guide) - Find and fix problems in your JavaScript code.
 - [Prettier](https://prettier.io/docs/en/index.html) - Prettier is an opinionated code formatter.
 - [Jest](https://jestjs.io/docs/getting-started) - Jest is a delightful JavaScript Testing Framework with a focus on
