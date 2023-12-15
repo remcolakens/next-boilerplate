@@ -41,11 +41,11 @@
 │   └── ci.md                 # docs for CI
 │   └── commit-convention.md  # docs for commit convention
 ├── public                    # Folder for static assets
-├── .commitlintrc				    # commitlint config (package)
+├── .commitlintrc					    # commitlint config (package)
 ├── .czrc					            # Config to commitizen
 ├── .editorconfig             # Config to normalize editors
 ├── .env.example              # Example file with required .env variables
-├── .eslintrc.json            # Eslint config
+├── .eslintrc			            # Eslint config
 ├── .gitignore                # Files that will be ignored by git
 ├── .lintstagedrc.js          # Config file for "lint-staged" (package)
 ├── .nvmrc                    # Compatible node version
