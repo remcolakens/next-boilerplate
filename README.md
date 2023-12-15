@@ -41,6 +41,7 @@
 │   └── ci.md                 # docs for CI
 │   └── commit-convention.md  # docs for commit convention
 ├── public                    # Folder for static assets
+├── .commitlintrc				    # commitlint config (package)
 ├── .czrc					            # Config to commitizen
 ├── .editorconfig             # Config to normalize editors
 ├── .env.example              # Example file with required .env variables
@@ -53,7 +54,6 @@
 ├── .releaserc                # semantic-release config
 ├── .svgrrc              		  # config for SVGR
 ├──  CODE_OF_CONDUCT		     	# the CODE OF CONDUCT
-├──  commitlint.config.js     # commitlint config (package)
 ├──  jest.config.js           # Config file for jest
 ├──  jest.setup.js            # Used for __tests__/testing-library.js
 ├──  LICENSE			            # License information
