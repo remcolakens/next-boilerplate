@@ -8,6 +8,7 @@
 		"dev": "next dev",
 		"format": "prettier --write .",
 		"generate:svg": "pnpm svgr ./app/svgs/",
+		"generate:component": "pnpm shadcn-ui add",
 		"generate": "generate",
 		"lint:eslint": "next lint",
 		"lint:typescript": "tsc --noEmit",
@@ -55,14 +56,20 @@
 		"prettier": "^3.1.1",
 		"prettier-plugin-organize-imports": "^3.2.4",
 		"semantic-release": "^22.0.12",
+		"shadcn-ui": "^0.4.1",
 		"tailwindcss": "^3.3.6",
 		"typescript": "^5.3.3"
 	},
 	"dependencies": {
+		"class-variance-authority": "^0.7.0",
+		"clsx": "^2.0.0",
+		"lucide-react": "^0.297.0",
 		"next": "^14.0.4",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
-		"react-use": "^17.4.2"
+		"react-use": "^17.4.2",
+		"tailwind-merge": "^2.1.0",
+		"tailwindcss-animate": "^1.0.7"
 	},
 	"engines": {
 		"node": ">=20.10.0"
