@@ -51,6 +51,7 @@
 ├── .prettierignore           # Files that will be ignored by Prettier (package)
 ├── .prettierrc               # Prettier config (package)
 ├── .releaserc                # semantic-release config
+├── .svgrrc              		  # config for SVGR
 ├──  CODE_OF_CONDUCT		     	# the CODE OF CONDUCT
 ├──  commitlint.config.js     # commitlint config (package)
 ├──  jest.config.js           # Config file for jest

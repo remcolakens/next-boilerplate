@@ -7,7 +7,7 @@
 		"commit": "git add . && cz",
 		"dev": "next dev",
 		"format": "prettier --write .",
-		"generate:svg": "pnpm svgr ./svgs/ --out-dir ./svgs/@generated --ignore-existing --typescript --memo",
+		"generate:svg": "pnpm svgr ./app/svgs/",
 		"generate": "generate",
 		"lint:eslint": "next lint",
 		"lint:typescript": "tsc --noEmit",
@@ -17,6 +17,7 @@
 		"release": "semantic-release",
 		"start": "next start",
 		"test:ci": "jest --ci",
+		"test:update": "jest --ci -u",
 		"test": "jest"
 	},
 	"devDependencies": {

@@ -1,2 +1,2 @@
-export { default as Next } from './Next';
-export { default as Vercel } from './Vercel';
+export { default as Next } from './next';
+export { default as Vercel } from './vercel';

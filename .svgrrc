@@ -1,0 +1,9 @@
+{
+	"typescript": true,
+	"icon": true,
+	"filenameCase": "kebab",
+	"outDir": "./app/svgs/@generated",
+	"replaceAttrValues": {
+		"#000": "currentColor"
+	}
+}
