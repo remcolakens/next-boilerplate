@@ -7,7 +7,7 @@
 		"commit": "git add . && cz",
 		"dev": "next dev",
 		"format": "prettier --write .",
-		"generate:svg": "pnpm svgr ./app/svgs/",
+		"generate:svg": "pnpm svgr ./app/svgs/src",
 		"generate:component": "pnpm shadcn-ui add",
 		"generate": "generate",
 		"lint:eslint": "next lint",
