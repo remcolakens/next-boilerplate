@@ -1,0 +1,54 @@
+name: Bug Report
+description: Submit a bug report
+labels:
+  - 'bug:unverified'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before submitting a bug report, please search for the behavior in the existing issues.
+
+        ---
+
+        Thank you for taking the time to submit a bug report. To address this bug as quickly as possible, we require some information.
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug description
+      description: When I ____, I expected ____ to happen, but ____ happened instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Which steps do we need to take to reproduce this error?
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: The browser(s) in which this issue occurred.
+      placeholder: Firefox 120
+
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: Operating System
+      description: The operating system(s) in which this issue occurred.
+      multiple: true
+      options:
+        - macOS
+        - Windows
+        - Linux
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: |
+        Use this section to provide any additional information you might have, such as screenshots, notes, or links to ideas.
