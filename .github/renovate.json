@@ -8,11 +8,13 @@
 	],
 	"labels": ["dependencies"],
 	"rangeStrategy": "bump",
+	"timezone": "Europe/Amsterdam",
 	"packageRules": [
 		{
 			"description": "Automatically merge minor and patch-level updates",
-			"matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+			"matchUpdateTypes": ["minor", "patch", "digest"],
 			"automerge": true
 		}
-	]
+	],
+	"ignoreDeps": ["react", "node"]
 }

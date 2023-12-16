@@ -11,15 +11,14 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           persist-credentials: false
 
-      - uses: ./.github/actions/setup
-
-      - name: Install
-        run: pnpm install
+      - name: Setup
+        uses: ./.github/actions/setup
 
       - name: Release
         run: pnpm release

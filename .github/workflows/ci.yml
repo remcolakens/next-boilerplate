@@ -1,4 +1,4 @@
-name: ci
+name: CI
 
 on:
   push:
@@ -9,16 +9,19 @@ on:
     branches:
       - main
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event.number }}
+  cancel-in-progress: true
+
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: ./.github/actions/setup
-
-      - name: Install
-        run: pnpm install
+      - name: Setup
+        uses: ./.github/actions/setup
 
       - name: Lint
         run: pnpm lint
@@ -26,12 +29,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: ./.github/actions/setup
-
-      - name: Install
-        run: pnpm install
+      - name: Setup
+        uses: ./.github/actions/setup
 
       - name: Build
         run: pnpm build
@@ -40,12 +42,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: ./.github/actions/setup
+      - name: Setup
+        uses: ./.github/actions/setup
 
-      - name: Install
-        run: pnpm install
-
-      - name: Test
+      - name: test
         run: pnpm test
