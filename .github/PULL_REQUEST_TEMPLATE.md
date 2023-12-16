@@ -1,14 +1,14 @@
 ## Context
 
-_What is the problem you have solved with this PR_
+<!-- What is the problem you have solved with this PR -->
 
 ## Changes
 
-_How did you solve the problem, describe here the changes_
+<!-- How did you solve the problem, describe here the changes -->
 
 ## Screenshot
 
-_Upload here a screenshot of your change (visual changes only)_
+<!-- Upload here a screenshot of your change (visual changes only) -->
 
 ## Paperwork
 
