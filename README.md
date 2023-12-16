@@ -23,14 +23,15 @@
 ## File Tree
 
 ```bash
+├── .github                   # Workflows for Github Actions
+├── .husky                    # Git hooks
+├── app                    		# Pages folder
 ├── __tests__                 # Test folder
 │   └── __snapshots__         # Snapshot folder
 │       └── snapshot.tsx.snap # The saved snapshots
 │   └── index.test.tsx        # Sample test file
-├── .github                   # Workflows for Github Actions
-├── .husky                    # Git hooks
-├── app                    		# Pages folder
 │   ├── components            # Components folder
+│   ├── lib		              	# Library folder
 │   ├── svgs		              # SVG folder
 │   ├── favicon.ico           # The favicon
 │   ├── globals.css           # The main css file to configure globals such a tailwind
