@@ -1,12 +1,23 @@
 {
 	"root": true,
+	"parser": "@typescript-eslint/parser",
 	"extends": [
 		"next/core-web-vitals",
 		"eslint:recommended",
+		"plugin:react/recommended",
 		"plugin:@typescript-eslint/recommended",
 		"prettier"
 	],
-	"parser": "@typescript-eslint/parser",
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	},
+	"env": {
+		"es6": true,
+		"browser": true,
+		"node": true
+	},
 	"plugins": ["prettier", "@typescript-eslint", "testing-library"],
 	"overrides": [
 		// Only uses Testing Library lint rules in test files
@@ -19,6 +30,9 @@
 		}
 	],
 	"rules": {
+		"react/prop-types": "off",
+		"@typescript-eslint/no-empty-function": "off",
+		"react/react-in-jsx-scope": "off",
 		"prettier/prettier": "error",
 		"@typescript-eslint/no-unused-vars": "error",
 		"@typescript-eslint/no-explicit-any": "error"

@@ -18,8 +18,8 @@ describe('Home', () => {
 
 		expect(
 			screen.getByText(
-				'Find in-depth information about Next.js features and API.'
-			)
+				'Find in-depth information about Next.js features and API.',
+			),
 		).toBeInTheDocument();
 	});
 
@@ -46,7 +46,7 @@ describe('Home', () => {
 
 		expect(learnLink).toHaveAttribute(
 			'href',
-			'https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app'
+			'https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app',
 		);
 	});
 });
