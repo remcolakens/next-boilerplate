@@ -1,3 +1,30 @@
+## [3.0.0](https://github.com/remcolakens/next-boilerplate/compare/v2.2.0...v3.0.0) (2023-12-18)
+
+### ⚠ BREAKING CHANGES
+
+- Chakra UI is no longer supported. This release
+  introduces full support for Tailwind CSS, providing a better developer
+  experience.
+
+### 🚀 Features
+
+- integrate tailwind css with next.js 14 ([#50](https://github.com/remcolakens/next-boilerplate/issues/50)) ([22aae3b](https://github.com/remcolakens/next-boilerplate/commit/22aae3b0cc146c0677b3fcee734f7e271cdd7211))
+
+### 🐞 Bug Fixes
+
+- node versions ([251dd33](https://github.com/remcolakens/next-boilerplate/commit/251dd337cc25b4f8538789ebc4e89bda86fbbedc))
+
+### 🏡 Chore
+
+- **deps:** update actions/setup-node action to v4 ([#47](https://github.com/remcolakens/next-boilerplate/issues/47)) ([3f62d86](https://github.com/remcolakens/next-boilerplate/commit/3f62d86f5a2a5e9f24fc98b9fb52187df3e87d81))
+- **deps:** update all non-major dependencies ([#44](https://github.com/remcolakens/next-boilerplate/issues/44)) ([c714059](https://github.com/remcolakens/next-boilerplate/commit/c714059bc7695cc4cf4d0d4ae53eace4f7bf2f55))
+- **deps:** update commitlint monorepo to v18 (major) ([#46](https://github.com/remcolakens/next-boilerplate/issues/46)) ([aed71b3](https://github.com/remcolakens/next-boilerplate/commit/aed71b3e64b2fcd7785ecbd8b1e416a095ae0ddc))
+- **deps:** update dependency @types/node to ^20.10.5 ([#53](https://github.com/remcolakens/next-boilerplate/issues/53)) ([bcde68d](https://github.com/remcolakens/next-boilerplate/commit/bcde68dd3ab098706a5f9c77960c60a8e776211e))
+- **deps:** update dependency lint-staged to v15 ([#45](https://github.com/remcolakens/next-boilerplate/issues/45)) ([c0ecc71](https://github.com/remcolakens/next-boilerplate/commit/c0ecc714684a51ba28977fe629b5811ddbfa7b6c))
+- **deps:** update dependency lucide-react to ^0.298.0 ([#52](https://github.com/remcolakens/next-boilerplate/issues/52)) ([d7988e6](https://github.com/remcolakens/next-boilerplate/commit/d7988e656d40244e31cf74949b00f940f36f57c2))
+- **deps:** update dependency node to v20 ([#48](https://github.com/remcolakens/next-boilerplate/issues/48)) ([1748523](https://github.com/remcolakens/next-boilerplate/commit/1748523f1eaed209e5978f020f105c2e8ba7f48f))
+- **deps:** update nextjs monorepo to v14 (major) ([#49](https://github.com/remcolakens/next-boilerplate/issues/49)) ([fb24f8b](https://github.com/remcolakens/next-boilerplate/commit/fb24f8b8f5c288f4f03aa159910ed6b15c16900f))
+
 ## [2.2.0](https://github.com/remcolakens/next-boilerplate/compare/v2.1.1...v2.2.0) (2023-10-02)
 
 ### 🚀 Features
