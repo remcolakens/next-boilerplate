@@ -25,39 +25,39 @@
 ```bash
 ├── .github                   # Workflows for Github Actions
 ├── .husky                    # Git hooks
-├── app                    		# Pages folder
+├── app                       # Pages folder
 ├── __tests__                 # Test folder
 │   └── __snapshots__         # Snapshot folder
 │       └── snapshot.tsx.snap # The saved snapshots
 │   └── index.test.tsx        # Sample test file
 │   ├── components            # Components folder
-│   ├── lib		              	# Library folder
-│   ├── svgs		              # SVG folder
+│   ├── lib                   # Library folder
+│   ├── svgs                  # SVG folder
 │   ├── favicon.ico           # The favicon
 │   ├── globals.css           # The main css file to configure globals such a tailwind
-│   ├── layout.tsx          	# The main layout files
+│   ├── layout.tsx            # The main layout files
 │   └── page.tsx              # Sample page
 ├── docs                      # Documentation
 │   └── CHANGELOG.md          # the changelog
 │   └── ci.md                 # docs for CI
 │   └── commit-convention.md  # docs for commit convention
 ├── public                    # Folder for static assets
-├── .commitlintrc					    # commitlint config (package)
-├── .czrc					            # Config to commitizen
+├── .commitlintrc             # commitlint config (package)
+├── .czrc                     # Config to commitizen
 ├── .editorconfig             # Config to normalize editors
 ├── .env.example              # Example file with required .env variables
-├── .eslintrc			            # Eslint config
+├── .eslintrc                 # Eslint config
 ├── .gitignore                # Files that will be ignored by git
 ├── .lintstagedrc.js          # Config file for "lint-staged" (package)
 ├── .nvmrc                    # Compatible node version
 ├── .prettierignore           # Files that will be ignored by Prettier (package)
 ├── .prettierrc               # Prettier config (package)
 ├── .releaserc                # semantic-release config
-├── .svgrrc              		  # config for SVGR
-├──  CODE_OF_CONDUCT		     	# the CODE OF CONDUCT
+├── .svgrrc                   # config for SVGR
+├──  CODE_OF_CONDUCT          # the CODE OF CONDUCT
 ├──  jest.config.js           # Config file for jest
 ├──  jest.setup.js            # Used for __tests__/testing-library.js
-├──  LICENSE			            # License information
+├──  LICENSE                  # License information
 ├──  next-env.d.ts            # Next.js Typescript declaration file (leave unchanged)
 ├──  package.json             # The package.json of this project
 ├──  pnpm-lock.yaml           # Lock file for packages (leave unchanged)
