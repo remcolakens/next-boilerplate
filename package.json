@@ -29,16 +29,16 @@
 		"@semantic-release/changelog": "^6.0.3",
 		"@semantic-release/git": "^10.0.1",
 		"@svgr/cli": "^8.1.0",
-		"@testing-library/jest-dom": "^6.1.5",
+		"@testing-library/jest-dom": "^6.1.6",
 		"@testing-library/react": "^14.1.2",
-		"@testing-library/user-event": "^14.5.1",
+		"@testing-library/user-event": "^14.5.2",
 		"@types/jest": "29.5.11",
-		"@types/node": "^20.10.5",
-		"@types/react": "^18.2.45",
+		"@types/node": "^20.10.6",
+		"@types/react": "^18.2.46",
 		"@types/react-dom": "^18.2.18",
 		"@types/testing-library__jest-dom": "5.14.9",
-		"@typescript-eslint/eslint-plugin": "^6.15.0",
-		"@typescript-eslint/parser": "^6.15.0",
+		"@typescript-eslint/eslint-plugin": "^6.16.0",
+		"@typescript-eslint/parser": "^6.16.0",
 		"autoprefixer": "^10.4.16",
 		"babel-jest": "^29.7.0",
 		"commitizen": "^4.3.0",
@@ -56,7 +56,7 @@
 		"postcss": "^8.4.32",
 		"prettier": "^3.1.1",
 		"prettier-plugin-organize-imports": "^3.2.4",
-		"prettier-plugin-tailwindcss": "^0.5.9",
+		"prettier-plugin-tailwindcss": "^0.5.10",
 		"semantic-release": "^22.0.12",
 		"shadcn-ui": "^0.5.0",
 		"tailwindcss": "^3.4.0",
@@ -64,8 +64,8 @@
 	},
 	"dependencies": {
 		"class-variance-authority": "^0.7.0",
-		"clsx": "^2.0.0",
-		"lucide-react": "^0.301.0",
+		"clsx": "^2.1.0",
+		"lucide-react": "^0.303.0",
 		"next": "^14.0.4",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
@@ -76,5 +76,5 @@
 	"engines": {
 		"node": ">=v18"
 	},
-	"packageManager": "pnpm@8.12.1"
+	"packageManager": "pnpm@8.13.1"
 }
