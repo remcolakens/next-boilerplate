@@ -12,8 +12,8 @@ dependencies:
     specifier: ^2.1.0
     version: 2.1.0
   lucide-react:
-    specifier: ^0.312.0
-    version: 0.312.0(react@18.2.0)
+    specifier: ^0.314.0
+    version: 0.314.0(react@18.2.0)
   next:
     specifier: ^14.1.0
     version: 14.1.0(@babel/core@7.23.6)(react-dom@18.2.0)(react@18.2.0)
@@ -24,8 +24,8 @@ dependencies:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
   react-use:
-    specifier: ^17.4.3
-    version: 17.4.3(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^17.4.4
+    version: 17.4.4(react-dom@18.2.0)(react@18.2.0)
   tailwind-merge:
     specifier: ^2.2.0
     version: 2.2.0
@@ -6133,8 +6133,8 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /lucide-react@0.312.0(react@18.2.0):
-    resolution: {integrity: sha512-3UZsqyswRXjW4t+nw+InICewSimjPKHuSxiFYqTshv9xkK3tPPntXk/lvXc9pKlXIxm3v9WKyoxcrB6YHhP+dg==}
+  /lucide-react@0.314.0(react@18.2.0):
+    resolution: {integrity: sha512-c2zOW7TOyKxPCaSs1og2lFdoI3SR4iii3yrZJU2Zpdc78nOw4fUmrcFNultaCiwZcr4CyiKdzjMdvKNlBBk+UQ==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0
     dependencies:
@@ -7261,8 +7261,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /react-use@17.4.3(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-05Oyuwn4ZccdzLD4ttLbMe8TkobdKpOj7YCFE9VhVpbXrTWZpvCcMyroRw/Banh1RIcQRcM06tfzPpY5D9sTsQ==}
+  /react-use@17.4.4(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-TzEP2uxihZdsVIvpGq0KB6P/bARHja8LzvJhDpSJNlphybLHcFf5SQzXE3u7APcU25dJz1+p0dv/oKibq+jG4Q==}
     peerDependencies:
       react: '*'
       react-dom: '*'
