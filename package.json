@@ -74,7 +74,7 @@
 		"tailwindcss-animate": "^1.0.7"
 	},
 	"engines": {
-		"node": ">=v18"
+		"node": ">=v20"
 	},
 	"packageManager": "pnpm@8.15.3"
 }
