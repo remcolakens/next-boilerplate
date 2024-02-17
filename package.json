@@ -14,7 +14,7 @@
 		"lint:typescript": "tsc --noEmit",
 		"lint": "pnpm lint:typescript && pnpm lint:eslint",
 		"preinstall": "npx only-allow pnpm",
-		"prepare": "husky install",
+		"prepare": "husky",
 		"release": "semantic-release",
 		"start": "next start",
 		"test:ci": "jest --ci",
