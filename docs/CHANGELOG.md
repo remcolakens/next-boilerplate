@@ -1,3 +1,28 @@
+## [3.0.1](https://github.com/remcolakens/next-boilerplate/compare/v3.0.0...v3.0.1) (2024-02-17)
+
+### 🐞 Bug Fixes
+
+- **ci:** default node workflow version ([7549a44](https://github.com/remcolakens/next-boilerplate/commit/7549a447c7e18fe88f1de4a6c77982b9d4de4a0c))
+- **ci:** update pnpm/action version ([c6e15f2](https://github.com/remcolakens/next-boilerplate/commit/c6e15f273e6e1db70a4d161647381e7427a0ac0b))
+- formatting of README ([bdcbeac](https://github.com/remcolakens/next-boilerplate/commit/bdcbeacb1331cfd88e06d8faf7df658dee9291f0))
+- **package:** bump node version ([a6409d5](https://github.com/remcolakens/next-boilerplate/commit/a6409d5f526d78cacbafddf5c868ce9860fc92b1))
+
+### 🏡 Chore
+
+- **deps:** update all non-major dependencies ([#54](https://github.com/remcolakens/next-boilerplate/issues/54)) ([78efb7b](https://github.com/remcolakens/next-boilerplate/commit/78efb7befed6fc00f0753ca0a3d3fa78f63f34f1))
+- **deps:** update all non-major dependencies ([#55](https://github.com/remcolakens/next-boilerplate/issues/55)) ([a1c6add](https://github.com/remcolakens/next-boilerplate/commit/a1c6addd14839b3c52f7dc6d38d046f787f22224))
+- **deps:** update all non-major dependencies ([#56](https://github.com/remcolakens/next-boilerplate/issues/56)) ([27346af](https://github.com/remcolakens/next-boilerplate/commit/27346af125f6debee1dd6654d515d55b7392f39e))
+- **deps:** update all non-major dependencies ([#57](https://github.com/remcolakens/next-boilerplate/issues/57)) ([3731465](https://github.com/remcolakens/next-boilerplate/commit/3731465956df9175a666f9656ceab2a5b4f30e7c))
+- **deps:** update all non-major dependencies ([#58](https://github.com/remcolakens/next-boilerplate/issues/58)) ([56725a0](https://github.com/remcolakens/next-boilerplate/commit/56725a09c722dd77ce0bb74b34fc027a86180c66))
+- **deps:** update all non-major dependencies ([#60](https://github.com/remcolakens/next-boilerplate/issues/60)) ([d0882d4](https://github.com/remcolakens/next-boilerplate/commit/d0882d4ba5d5657fc0baa183e8d19c3738e31fc1))
+- **deps:** update all non-major dependencies ([#61](https://github.com/remcolakens/next-boilerplate/issues/61)) ([4bed177](https://github.com/remcolakens/next-boilerplate/commit/4bed1776a32e2bf57570ba1db67aca99e16ac23e))
+- **deps:** update all non-major dependencies ([#62](https://github.com/remcolakens/next-boilerplate/issues/62)) ([692f3e4](https://github.com/remcolakens/next-boilerplate/commit/692f3e4a7aa7f81778ed1917a9a7e4b90097a9bc))
+- **deps:** update all non-major dependencies ([#64](https://github.com/remcolakens/next-boilerplate/issues/64)) ([087d16c](https://github.com/remcolakens/next-boilerplate/commit/087d16c901f0241c9852954dc9b682258d5ea233))
+- **deps:** update all non-major dependencies ([#65](https://github.com/remcolakens/next-boilerplate/issues/65)) ([76478d6](https://github.com/remcolakens/next-boilerplate/commit/76478d63d605a52a3e0bc3d8774ddcc50aef466f))
+- **deps:** update dependency husky to v9 ([#63](https://github.com/remcolakens/next-boilerplate/issues/63)) ([bd2c328](https://github.com/remcolakens/next-boilerplate/commit/bd2c3288d8182c6c5348c4c623eb5bbe3197a853))
+- **deps:** update dependency semantic-release to v23 ([#59](https://github.com/remcolakens/next-boilerplate/issues/59)) ([e252ccc](https://github.com/remcolakens/next-boilerplate/commit/e252ccc7729a33fb239a1a7d29c0b2618a71b95b))
+- **deps:** update typescript-eslint monorepo to v7 (major) ([#66](https://github.com/remcolakens/next-boilerplate/issues/66)) ([bd0698d](https://github.com/remcolakens/next-boilerplate/commit/bd0698de41abf787a2042e9b2e4d8d96cdd2f57b))
+
 ## [3.0.0](https://github.com/remcolakens/next-boilerplate/compare/v2.2.0...v3.0.0) (2023-12-18)
 
 ### ⚠ BREAKING CHANGES
