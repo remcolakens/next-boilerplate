@@ -1,6 +1,3 @@
-/**
- * @jest-environment jsdom
- */
 import Home from '@/app/page';
 import { fireEvent, render, screen } from '@testing-library/react';
 
