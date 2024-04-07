@@ -35,11 +35,11 @@
 		"@testing-library/react": "^14.2.2",
 		"@testing-library/user-event": "^14.5.2",
 		"@types/jest": "29.5.12",
-		"@types/node": "^20.12.2",
-		"@types/react": "^18.2.73",
-		"@types/react-dom": "^18.2.23",
-		"@typescript-eslint/eslint-plugin": "^7.4.0",
-		"@typescript-eslint/parser": "^7.4.0",
+		"@types/node": "^20.12.5",
+		"@types/react": "^18.2.74",
+		"@types/react-dom": "^18.2.24",
+		"@typescript-eslint/eslint-plugin": "^7.5.0",
+		"@typescript-eslint/parser": "^7.5.0",
 		"autoprefixer": "^10.4.19",
 		"babel-jest": "^29.7.0",
 		"commitizen": "^4.3.0",
@@ -58,15 +58,15 @@
 		"prettier": "^3.2.5",
 		"prettier-plugin-organize-imports": "^3.2.4",
 		"prettier-plugin-tailwindcss": "^0.5.13",
-		"semantic-release": "^23.0.6",
+		"semantic-release": "^23.0.7",
 		"shadcn-ui": "^0.8.0",
 		"tailwindcss": "^3.4.3",
-		"typescript": "^5.4.3"
+		"typescript": "^5.4.4"
 	},
 	"dependencies": {
 		"class-variance-authority": "^0.7.0",
 		"clsx": "^2.1.0",
-		"lucide-react": "^0.363.0",
+		"lucide-react": "^0.365.0",
 		"next": "^14.1.4",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
@@ -77,5 +77,5 @@
 	"engines": {
 		"node": ">=v20"
 	},
-	"packageManager": "pnpm@8.15.5"
+	"packageManager": "pnpm@8.15.6"
 }
