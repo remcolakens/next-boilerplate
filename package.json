@@ -19,12 +19,14 @@
 		"start": "next start",
 		"test:ci": "jest --ci",
 		"test:update": "jest --ci -u",
-		"test": "jest"
+		"test": "jest",
+		"test:e2e": "playwright test"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^19.2.1",
 		"@commitlint/config-conventional": "^19.1.0",
 		"@commitlint/cz-commitlint": "^19.2.0",
+		"@playwright/test": "^1.43.0",
 		"@remcolakens/simple-component-generator": "^1.0.5",
 		"@semantic-release/changelog": "^6.0.3",
 		"@semantic-release/git": "^10.0.1",
