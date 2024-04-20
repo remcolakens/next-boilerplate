@@ -1,12 +1,8 @@
 import { expect, test } from '@playwright/test';
 
 test.describe('test homepage', () => {
-	test('Find links in DOM', async ({ page, isMobile }) => {
+	test('Find links in DOM', async ({ page }) => {
 		await page.goto('/');
-
-		if (isMobile) {
-			// do something only on mobile
-		}
 
 		await expect(
 			page.getByRole('link', { name: 'Docs -> Find in-depth' }),
