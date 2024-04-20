@@ -48,9 +48,11 @@ export default defineConfig({
 		},
 	],
 
-	webServer: {
-		command: 'pnpm build && pnpm start',
-		url: 'http://localhost:3000',
-		reuseExistingServer: !process.env.CI,
-	},
+	webServer: process.env.CI
+		? undefined
+		: {
+				command: 'pnpm build && pnpm start',
+				url: 'http://localhost:3000',
+				reuseExistingServer: !process.env.CI,
+			},
 });
