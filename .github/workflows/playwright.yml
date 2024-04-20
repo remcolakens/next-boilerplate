@@ -1,8 +1,5 @@
 name: Playwright Tests
 
-env:
-  CI: 1
-
 on:
   push:
     branches:
