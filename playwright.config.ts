@@ -12,6 +12,11 @@ export default defineConfig({
 	forbidOnly: process.env.CI ? true : false,
 	retries: process.env.CI ? 3 : 0,
 
+	use: {
+		baseURL: process.env.PLAYWRIGHT_TEST_BASE_URL ?? 'http://localhost:3000',
+		trace: 'on-first-retry',
+	},
+
 	projects: [
 		{
 			name: 'chromium',
@@ -41,13 +46,11 @@ export default defineConfig({
 		},
 	],
 
-	webServer: {
-		command: 'pnpm build && pnpm start',
-		url: process.env.PLAYWRIGHT_TEST_BASE_URL ?? 'http://localhost:3000',
-		reuseExistingServer: true,
-	},
-	use: {
-		baseURL: process.env.PLAYWRIGHT_TEST_BASE_URL ?? 'http://localhost:3000',
-		trace: 'on-first-retry',
-	},
+	webServer: process.env.CI
+		? undefined
+		: {
+				command: 'pnpm build && pnpm start',
+				url: 'http://localhost:3000',
+				reuseExistingServer: !process.env.CI,
+			},
 });
