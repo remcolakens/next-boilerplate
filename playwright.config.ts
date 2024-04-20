@@ -34,14 +34,12 @@ export default defineConfig({
 		},
 		{
 			name: 'mobile webkit',
-			testMatch: /.*\.mobile.spec.ts/,
 			use: {
 				...devices['iPhone 14'],
 			},
 		},
 		{
 			name: 'mobile chromium',
-			testMatch: /.*\.mobile.spec.ts/,
 			use: {
 				...devices['Pixel 7'],
 			},
