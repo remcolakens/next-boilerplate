@@ -9,7 +9,7 @@ export default defineConfig({
 	workers: process.env.CI ? 1 : undefined,
 	fullyParallel: true,
 
-	forbidOnly: !!process.env.CI,
+	forbidOnly: process.env.CI ? true : false,
 	retries: process.env.CI ? 3 : 0,
 
 	use: {
@@ -46,11 +46,10 @@ export default defineConfig({
 		},
 	],
 
-	webServer: {
-		command: 'pnpm build && pnpm start',
-		url: 'http://localhost:3000',
-		reuseExistingServer: !process.env.CI,
-		stdout: 'ignore',
-		stderr: 'pipe',
-	},
+	webServer: process.env.CI
+		? undefined
+		: {
+				command: 'pnpm build && pnpm start',
+				url: 'http://localhost:3000',
+			},
 });
