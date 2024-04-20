@@ -34,15 +34,25 @@ export default defineConfig({
 		},
 		{
 			name: 'mobile webkit',
+			testMatch: /.*\.mobile.spec.ts/,
 			use: {
 				...devices['iPhone 14'],
 			},
 		},
 		{
 			name: 'mobile chromium',
+			testMatch: /.*\.mobile.spec.ts/,
 			use: {
 				...devices['Pixel 7'],
 			},
 		},
 	],
+
+	webServer: process.env.CI
+		? undefined
+		: {
+				command: 'pnpm build && pnpm start',
+				url: 'http://localhost:3000',
+				reuseExistingServer: !process.env.CI,
+			},
 });
