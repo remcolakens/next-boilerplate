@@ -5,6 +5,7 @@
 	"scripts": {
 		"build": "next build",
 		"commit": "git add . && cz",
+		"clean": "rimraf node_modules .next .swc e2e/{report,test-results}",
 		"dev": "next dev",
 		"format": "prettier --write .",
 		"generate:svg": "pnpm svgr ./app/svgs/src",
@@ -59,6 +60,7 @@
 		"prettier": "^3.2.5",
 		"prettier-plugin-organize-imports": "^3.2.4",
 		"prettier-plugin-tailwindcss": "^0.5.14",
+		"rimraf": "^5.0.5",
 		"semantic-release": "^23.0.8",
 		"shadcn-ui": "^0.8.0",
 		"tailwindcss": "^3.4.3",
