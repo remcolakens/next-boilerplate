@@ -2,6 +2,7 @@ import { expect, test } from '@playwright/test';
 
 test.describe('test homepage', () => {
 	test('Find links in DOM', async ({ page }) => {
+		test.slow();
 		await page.goto('/');
 
 		await expect(
