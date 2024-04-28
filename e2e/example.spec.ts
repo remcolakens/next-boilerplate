@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 
 test.describe('test homepage', () => {
 	test('Find links in DOM', async ({ page }) => {
-		await page.goto('/');
+		await page.goto('/', { waitUntil: 'domcontentloaded' });
 
 		await expect(
 			page.getByRole('link', { name: 'Docs -> Find in-depth' }),
