@@ -1,4 +1,4 @@
-import { Next, Vercel } from '@/app/svgs';
+import { Next, Vercel } from '@/svgs';
 
 export default function Home() {
 	return (
