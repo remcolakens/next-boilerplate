@@ -79,6 +79,10 @@ If you are new to pnpm you need to [install it on your local machine](https://pn
 
 pnpm install
 
+# Install playwright for end-to-end tests
+
+pnpm exec playwright install --with-deps
+
 # Start local webserver at port 3000
 
 pnpm dev
@@ -91,9 +95,17 @@ pnpm lint
 
 pnpm test
 
+# Run end-to-end tests
+
+pnpm test:e2e
+
 # Build app for production (gets output in the 'dist' directory)
 
 pnpm build
+
+# Start production server
+
+pnpm start
 ```
 
 ## Learn More

@@ -9,7 +9,7 @@ export default defineConfig({
 	workers: process.env.CI ? 1 : undefined,
 	fullyParallel: true,
 
-	forbidOnly: !!process.env.CI,
+	forbidOnly: process.env.CI ? true : false,
 	retries: process.env.CI ? 3 : 0,
 
 	use: {
@@ -32,5 +32,25 @@ export default defineConfig({
 			name: 'webkit',
 			use: { ...devices['Desktop Safari'] },
 		},
+		{
+			name: 'mobile webkit',
+			use: {
+				...devices['iPhone 14'],
+			},
+		},
+		{
+			name: 'mobile chromium',
+			use: {
+				...devices['Pixel 7'],
+			},
+		},
 	],
+
+	webServer: process.env.CI
+		? undefined
+		: {
+				command: 'pnpm build && pnpm start',
+				url: 'http://localhost:3000',
+				reuseExistingServer: !process.env.CI,
+			},
 });
