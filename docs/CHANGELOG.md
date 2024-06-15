@@ -1,3 +1,32 @@
+## [3.2.0](https://github.com/remcolakens/next-boilerplate/compare/v3.1.0...v3.2.0) (2024-06-15)
+
+### 🚀 Features
+
+- add clean script ([#87](https://github.com/remcolakens/next-boilerplate/issues/87)) ([3a4fcc5](https://github.com/remcolakens/next-boilerplate/commit/3a4fcc5e0cfb887dd01562b9327c7ef108e2d318))
+- add mobile devices e2e ([#86](https://github.com/remcolakens/next-boilerplate/issues/86)) ([f250166](https://github.com/remcolakens/next-boilerplate/commit/f250166590ae29ac853623628246ab06d2181225))
+- add tailwindcss linter ([#79](https://github.com/remcolakens/next-boilerplate/issues/79)) ([1190869](https://github.com/remcolakens/next-boilerplate/commit/11908697d8d6653c2f64fb28fab58efd94e04f4c))
+- modernize front-end ([#90](https://github.com/remcolakens/next-boilerplate/issues/90)) ([f94f427](https://github.com/remcolakens/next-boilerplate/commit/f94f4271efc6843bccb4571273ffc2aef5d4a5bf))
+
+### 🐞 Bug Fixes
+
+- disable package-manager-strict ([#95](https://github.com/remcolakens/next-boilerplate/issues/95)) ([579ef8d](https://github.com/remcolakens/next-boilerplate/commit/579ef8da5ca4c262a7f9720fee6c1a1fb71a8456))
+
+### 🏡 Chore
+
+- **deps:** update all non-major dependencies ([#100](https://github.com/remcolakens/next-boilerplate/issues/100)) ([c0f1556](https://github.com/remcolakens/next-boilerplate/commit/c0f15568fba1b0bfc49f720f2182eb4cf7302451))
+- **deps:** update all non-major dependencies ([#81](https://github.com/remcolakens/next-boilerplate/issues/81)) ([354685d](https://github.com/remcolakens/next-boilerplate/commit/354685df58a28817637659d3d80649ca2514d0a5))
+- **deps:** update all non-major dependencies ([#85](https://github.com/remcolakens/next-boilerplate/issues/85)) ([7f9fc18](https://github.com/remcolakens/next-boilerplate/commit/7f9fc18effe7e5a32fcfc3a534a20718ce0fe4c8))
+- **deps:** update all non-major dependencies ([#89](https://github.com/remcolakens/next-boilerplate/issues/89)) ([abd43c0](https://github.com/remcolakens/next-boilerplate/commit/abd43c0586f58163be12d5cd0b0942d708e3773e))
+- **deps:** update all non-major dependencies ([#91](https://github.com/remcolakens/next-boilerplate/issues/91)) ([5687b00](https://github.com/remcolakens/next-boilerplate/commit/5687b00e6fa17ee1e866a77ef6d5dab75c5cf55c))
+- **deps:** update all non-major dependencies ([#92](https://github.com/remcolakens/next-boilerplate/issues/92)) ([8c211cf](https://github.com/remcolakens/next-boilerplate/commit/8c211cf2d90681398daa6a8395ea6d46279112be))
+- **deps:** update all non-major dependencies ([#94](https://github.com/remcolakens/next-boilerplate/issues/94)) ([c3264b3](https://github.com/remcolakens/next-boilerplate/commit/c3264b3488aa05058aafd6677b19589a9f699a9b))
+- **deps:** update all non-major dependencies ([#96](https://github.com/remcolakens/next-boilerplate/issues/96)) ([3ba9de8](https://github.com/remcolakens/next-boilerplate/commit/3ba9de86f3bc70a76cc6e22f1b794caf7f3504a4))
+- **deps:** update all non-major dependencies ([#98](https://github.com/remcolakens/next-boilerplate/issues/98)) ([0811810](https://github.com/remcolakens/next-boilerplate/commit/0811810431446f03e4b9fe83f56eca4890ba7802))
+- **deps:** update dependency @testing-library/react to v15 ([#84](https://github.com/remcolakens/next-boilerplate/issues/84)) ([113a395](https://github.com/remcolakens/next-boilerplate/commit/113a395d8c830651cb7509e9af7232401d0f048b))
+- **deps:** update dependency @testing-library/react to v16 ([#99](https://github.com/remcolakens/next-boilerplate/issues/99)) ([33b24b0](https://github.com/remcolakens/next-boilerplate/commit/33b24b00d532db2df20f6fe2167942be424cc8f9))
+- **deps:** update pnpm to v9 ([#83](https://github.com/remcolakens/next-boilerplate/issues/83)) ([2f9e4c5](https://github.com/remcolakens/next-boilerplate/commit/2f9e4c5f6d555f16cffa623f82ffc70dfceeb42b))
+- **deps:** update pnpm to v9.0.5 ([#88](https://github.com/remcolakens/next-boilerplate/issues/88)) ([305430c](https://github.com/remcolakens/next-boilerplate/commit/305430cc5af266da629c36a2389e8b3d73b0ead7))
+
 ## [3.1.0](https://github.com/remcolakens/next-boilerplate/compare/v3.0.1...v3.1.0) (2024-04-07)
 
 ### 🚀 Features
