@@ -25,23 +25,19 @@
 ```bash
 ├── .github                   # Workflows for Github Actions
 ├── .husky                    # Git hooks
-├── app                       # Pages folder
-├── __tests__                 # Test folder
-│   └── __snapshots__         # Snapshot folder
-│       └── snapshot.tsx.snap # The saved snapshots
-│   └── index.test.tsx        # Sample test file
-│   ├── components            # Components folder
-│   ├── lib                   # Library folder
-│   ├── svgs                  # SVG folder
-│   ├── favicon.ico           # The favicon
-│   ├── globals.css           # The main css file to configure globals such a tailwind
-│   ├── layout.tsx            # The main layout files
-│   └── page.tsx              # Sample page
 ├── docs                      # Documentation
 │   └── CHANGELOG.md          # the changelog
 │   └── ci.md                 # docs for CI
 │   └── commit-convention.md  # docs for commit convention
+├── e2e                       # E2E tests
+│   └── example.spec.ts       # Example E2E test
 ├── public                    # Folder for static assets
+├── src                       # Source folder
+│   ├── __tests__             # Test folder
+│   ├── app                   # App folder
+│   ├── components            # Components folder
+│   ├── lib                   # Lib folder
+│   └── svgs                  # SVGs folder
 ├── .commitlintrc             # commitlint config (package)
 ├── .czrc                     # Config to commitizen
 ├── .editorconfig             # Config to normalize editors
@@ -49,20 +45,23 @@
 ├── .eslintrc                 # Eslint config
 ├── .gitignore                # Files that will be ignored by git
 ├── .lintstagedrc.js          # Config file for "lint-staged" (package)
+├── .npmrc                    # Config file for npm
 ├── .nvmrc                    # Compatible node version
 ├── .prettierignore           # Files that will be ignored by Prettier (package)
 ├── .prettierrc               # Prettier config (package)
 ├── .releaserc                # semantic-release config
 ├── .svgrrc                   # config for SVGR
-├──  CODE_OF_CONDUCT          # the CODE OF CONDUCT
+├──  CODE_OF_CONDUCT.md       # the CODE OF CONDUCT
+├──  LICENSE                  # License information
+├──  README.md                # README documentation
+├──  components.json          # Shadcn UI config
 ├──  jest.config.js           # Config file for jest
 ├──  jest.setup.js            # Used for __tests__/testing-library.js
-├──  LICENSE                  # License information
 ├──  next-env.d.ts            # Next.js Typescript declaration file (leave unchanged)
 ├──  package.json             # The package.json of this project
+├──  playwright.config.ts     # Config file for playwright
 ├──  pnpm-lock.yaml           # Lock file for packages (leave unchanged)
 ├──  postcss.config.js        # the postcss config file
-├──  README.md                # README documentation
 ├──  tailwind.config.ts       # the tailwind css config
 └──  tsconfig.json            # Typescript config
 ```
@@ -76,35 +75,27 @@ If you are new to pnpm you need to [install it on your local machine](https://pn
 
 ```bash
 # Install dependencies
-
 pnpm install
 
 # Install playwright for end-to-end tests
-
 pnpm exec playwright install --with-deps
 
 # Start local webserver at port 3000
-
 pnpm dev
 
 # Run linters
-
 pnpm lint
 
 # Run unit tests
-
 pnpm test
 
 # Run end-to-end tests
-
 pnpm test:e2e
 
 # Build app for production (gets output in the 'dist' directory)
-
 pnpm build
 
 # Start production server
-
 pnpm start
 ```
 
