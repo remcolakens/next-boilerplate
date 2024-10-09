@@ -1,3 +1,39 @@
+## [3.2.1](https://github.com/remcolakens/next-boilerplate/compare/v3.2.0...v3.2.1) (2024-10-09)
+
+### 🐞 Bug Fixes
+
+- add new release rules ([ed5debc](https://github.com/remcolakens/next-boilerplate/commit/ed5debc205f6ac8f7a20ef0290fee4cf401d3d0f))
+
+### 📖 Documentation
+
+- update README ([#102](https://github.com/remcolakens/next-boilerplate/issues/102)) ([fb64ff8](https://github.com/remcolakens/next-boilerplate/commit/fb64ff8b5727ed7ebe32b74ba001fba0039548fa))
+
+### 🏡 Chore
+
+- **deps:** update all non-major dependencies ([#103](https://github.com/remcolakens/next-boilerplate/issues/103)) ([71094b8](https://github.com/remcolakens/next-boilerplate/commit/71094b845016b9272ebef26f46b1c035d64a9752))
+- **deps:** update all non-major dependencies ([#104](https://github.com/remcolakens/next-boilerplate/issues/104)) ([a3600af](https://github.com/remcolakens/next-boilerplate/commit/a3600afd91bd77f82fa6aec3ad82e382a2b0b1c0))
+- **deps:** update all non-major dependencies ([#106](https://github.com/remcolakens/next-boilerplate/issues/106)) ([fcaac5e](https://github.com/remcolakens/next-boilerplate/commit/fcaac5e775f28477090405cee69f51a773abce55))
+- **deps:** update all non-major dependencies ([#109](https://github.com/remcolakens/next-boilerplate/issues/109)) ([48ef521](https://github.com/remcolakens/next-boilerplate/commit/48ef52147b919c6cde74171f7a660d08f2f191b5))
+- **deps:** update all non-major dependencies ([#111](https://github.com/remcolakens/next-boilerplate/issues/111)) ([2561eb5](https://github.com/remcolakens/next-boilerplate/commit/2561eb5b5adba9f5cc06a9b274b860d9929b7593))
+- **deps:** update all non-major dependencies ([#112](https://github.com/remcolakens/next-boilerplate/issues/112)) ([81b4243](https://github.com/remcolakens/next-boilerplate/commit/81b4243c1f06755a329ed7563873a68a84bab090))
+- **deps:** update all non-major dependencies ([#113](https://github.com/remcolakens/next-boilerplate/issues/113)) ([d7ce5c8](https://github.com/remcolakens/next-boilerplate/commit/d7ce5c841b008c766fdcb7076927fe6bd771a53c))
+- **deps:** update all non-major dependencies ([#114](https://github.com/remcolakens/next-boilerplate/issues/114)) ([2715a01](https://github.com/remcolakens/next-boilerplate/commit/2715a018499e8bdcfe68a74774ecdb7d81908e7a))
+- **deps:** update all non-major dependencies ([#116](https://github.com/remcolakens/next-boilerplate/issues/116)) ([da4122c](https://github.com/remcolakens/next-boilerplate/commit/da4122c0d22ef38c0ff514877d79f4add565e019))
+- **deps:** update all non-major dependencies ([#117](https://github.com/remcolakens/next-boilerplate/issues/117)) ([043a1cc](https://github.com/remcolakens/next-boilerplate/commit/043a1cc84d1e19652e3702dc449fa323237c139f))
+- **deps:** update all non-major dependencies ([#118](https://github.com/remcolakens/next-boilerplate/issues/118)) ([500966f](https://github.com/remcolakens/next-boilerplate/commit/500966fda6366be470fc579d16bfa82f28a4ec61))
+- **deps:** update all non-major dependencies ([#119](https://github.com/remcolakens/next-boilerplate/issues/119)) ([01c7fcc](https://github.com/remcolakens/next-boilerplate/commit/01c7fcc155908f48b69d8f2c8a29e86a5ab4cb6c))
+- **deps:** update all non-major dependencies ([#120](https://github.com/remcolakens/next-boilerplate/issues/120)) ([9358268](https://github.com/remcolakens/next-boilerplate/commit/93582686f104e7f51a2ab2be3ab8795afbe73473))
+- **deps:** update all non-major dependencies ([#121](https://github.com/remcolakens/next-boilerplate/issues/121)) ([6fc55b8](https://github.com/remcolakens/next-boilerplate/commit/6fc55b889f9b7f8c2261830de3a514299b5717bf))
+- **deps:** update all non-major dependencies ([#123](https://github.com/remcolakens/next-boilerplate/issues/123)) ([2afd787](https://github.com/remcolakens/next-boilerplate/commit/2afd7878059a70a8eeebb961e1d91c2091d06d1f))
+- **deps:** update all non-major dependencies ([#124](https://github.com/remcolakens/next-boilerplate/issues/124)) ([e3792eb](https://github.com/remcolakens/next-boilerplate/commit/e3792eb54ea4d419f7bb886eb123c421f743bed2))
+- **deps:** update all non-major dependencies ([#125](https://github.com/remcolakens/next-boilerplate/issues/125)) ([1b2c45e](https://github.com/remcolakens/next-boilerplate/commit/1b2c45ed360b370b44bdbad8d2b7a2753b248e7f))
+- **deps:** update all non-major dependencies ([#127](https://github.com/remcolakens/next-boilerplate/issues/127)) ([5e37461](https://github.com/remcolakens/next-boilerplate/commit/5e37461255957f41689c3e507d1988e8827eca95))
+- **deps:** update dependency inquirer to v10 ([#107](https://github.com/remcolakens/next-boilerplate/issues/107)) ([714e21c](https://github.com/remcolakens/next-boilerplate/commit/714e21ceb93eb509240501aecae57494447eab44))
+- **deps:** update dependency prettier-plugin-organize-imports to v4 ([#108](https://github.com/remcolakens/next-boilerplate/issues/108)) ([d982d27](https://github.com/remcolakens/next-boilerplate/commit/d982d2798fe94cb29e62af19bda913e54abd70d9))
+- **deps:** update dependency rimraf to v6 ([#110](https://github.com/remcolakens/next-boilerplate/issues/110)) ([1f95024](https://github.com/remcolakens/next-boilerplate/commit/1f95024980dcb5b5f5a1d65a1a762771c81c2d6d))
+- **deps:** update typescript-eslint monorepo to v8 (major) ([#115](https://github.com/remcolakens/next-boilerplate/issues/115)) ([3389c48](https://github.com/remcolakens/next-boilerplate/commit/3389c4851ac9fe61762b2bf50395ee71568f4594))
+- update actions/setup-node ([#105](https://github.com/remcolakens/next-boilerplate/issues/105)) ([e0b4989](https://github.com/remcolakens/next-boilerplate/commit/e0b49890238d9fb39fd180c62900206707193332))
+
 ## [3.2.0](https://github.com/remcolakens/next-boilerplate/compare/v3.1.0...v3.2.0) (2024-06-15)
 
 ### 🚀 Features
