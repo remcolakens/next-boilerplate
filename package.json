@@ -6,7 +6,7 @@
 		"build": "next build",
 		"commit": "git add . && cz",
 		"clean": "rimraf node_modules .next .swc e2e/{report,test-results}",
-		"dev": "next dev",
+		"dev": "next dev --turbo",
 		"format": "prettier --write .",
 		"generate:svg": "pnpm svgr ./app/svgs/src",
 		"generate:component": "pnpm shadcn-ui add",
