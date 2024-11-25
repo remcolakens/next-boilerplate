@@ -48,5 +48,5 @@ jobs:
       - name: Setup
         uses: ./.github/actions/setup
 
-      - name: test
+      - name: Test
         run: pnpm test
