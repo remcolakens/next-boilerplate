@@ -2,7 +2,7 @@
 	"typescript": true,
 	"icon": true,
 	"filenameCase": "kebab",
-	"outDir": "./app/svgs",
+	"outDir": "./src/svgs",
 	"prettier": false,
 	"replaceAttrValues": {
 		"#000": "currentColor"

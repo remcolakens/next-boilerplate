@@ -5,7 +5,7 @@ describe('Home', () => {
 	it('renders the Next SVG', () => {
 		render(<Home />);
 
-		const nextSvg = screen.getByTestId('next-svg');
+		const nextSvg = screen.getByAltText('Next.js logo');
 
 		expect(nextSvg).toBeInTheDocument();
 	});
@@ -14,36 +14,30 @@ describe('Home', () => {
 		render(<Home />);
 
 		expect(
-			screen.getByText(
-				'Find in-depth information about Next.js features and API.',
-			),
+			screen.getByText('Save and see your changes instantly.'),
 		).toBeInTheDocument();
 	});
 
-	it('renders and clicks the "Docs" link', () => {
+	it('renders and clicks the "Deploy now" link', () => {
 		render(<Home />);
 
-		const docsLink = screen.getByRole('link', {
-			name: 'Docs -> Find in-depth information about Next.js features and API.',
-		});
+		const deployLink = screen.getByText('Deploy now');
 
 		const clickSpy = jest.spyOn(fireEvent, 'click');
-		fireEvent.click(docsLink);
+		fireEvent.click(deployLink);
 		expect(clickSpy).toHaveBeenCalledTimes(1);
 
 		clickSpy.mockRestore();
 	});
 
-	it('renders the "Learn" link', () => {
+	it('renders the "Read our docs" link', () => {
 		render(<Home />);
 
-		const learnLink = screen.getByRole('link', {
-			name: 'Learn -> Learn about Next.js in an interactive course with quizzes!',
-		});
+		const docsLink = screen.getByText('Read our docs');
 
-		expect(learnLink).toHaveAttribute(
+		expect(docsLink).toHaveAttribute(
 			'href',
-			'https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app',
+			'https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app',
 		);
 	});
 });

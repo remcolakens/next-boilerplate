@@ -1,3 +1,70 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	:root {
+		--background: #ffffff;
+		--foreground: #171717;
+		--card: #ffffff;
+		--card-foreground: #171717;
+		--popover: #ffffff;
+		--popover-foreground: #171717;
+		--primary: #171717;
+		--primary-foreground: #ffffff;
+		--secondary: #171717;
+		--secondary-foreground: #ffffff;
+		--muted: #171717;
+		--muted-foreground: #ffffff;
+		--accent: #171717;
+		--accent-foreground: #ffffff;
+		--destructive: #171717;
+		--destructive-foreground: #ffffff;
+		--border: #171717;
+		--input: #171717;
+		--ring: #171717;
+		--radius: 0.5rem;
+		--chart-1: #171717;
+		--chart-2: #171717;
+		--chart-3: #171717;
+		--chart-4: #171717;
+		--chart-5: #171717;
+	}
+
+	.dark {
+		--background: #0a0a0a;
+		--foreground: #ededed;
+		--card: #ededed;
+		--card-foreground: #0a0a0a;
+		--popover: #ededed;
+		--popover-foreground: #0a0a0a;
+		--primary: #ededed;
+		--primary-foreground: #0a0a0a;
+		--secondary: #ededed;
+		--secondary-foreground: #0a0a0a;
+		--muted: #ededed;
+		--muted-foreground: #0a0a0a;
+		--accent: #ededed;
+		--accent-foreground: #0a0a0a;
+		--destructive: #ededed;
+		--destructive-foreground: #0a0a0a;
+		--border: #ededed;
+		--input: #ededed;
+		--ring: #ededed;
+		--chart-1: #ededed;
+		--chart-2: #ededed;
+		--chart-3: #ededed;
+		--chart-4: #ededed;
+		--chart-5: #ededed;
+	}
+}
+
+@layer base {
+	* {
+		@apply border-border;
+	}
+
+	body {
+		@apply bg-background text-foreground;
+	}
+}
