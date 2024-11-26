@@ -55,7 +55,7 @@
 ├──  LICENSE                  # License information
 ├──  README.md                # README documentation
 ├──  components.json          # Shadcn UI config
-├──  vitest.config.ts         # Config file for vitest
+├──  vitest.config.mts        # Config file for vitest
 ├──  vitest.setup.ts          # Vitest setup file
 ├──  next-env.d.ts            # Next.js Typescript declaration file (leave unchanged)
 ├──  package.json             # The package.json of this project
