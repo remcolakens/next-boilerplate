@@ -33,7 +33,6 @@
 │   └── example.spec.ts       # Example E2E test
 ├── public                    # Folder for static assets
 ├── src                       # Source folder
-│   ├── __tests__             # Test folder
 │   ├── app                   # App folder
 │   ├── components            # Components folder
 │   ├── lib                   # Lib folder
