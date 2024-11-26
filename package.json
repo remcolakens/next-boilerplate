@@ -8,7 +8,7 @@
 		"clean": "rimraf node_modules .next .swc e2e/{report,test-results}",
 		"dev": "next dev --turbo",
 		"format": "prettier --write .",
-		"generate:svg": "pnpm svgr ./app/svgs/src",
+		"generate:svg": "pnpm svgr ./src/svgs/src",
 		"generate:component": "pnpm shadcn add",
 		"generate": "generate",
 		"lint:eslint": "next lint",

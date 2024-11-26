@@ -3,6 +3,7 @@
 	"parser": "@typescript-eslint/parser",
 	"extends": [
 		"next/core-web-vitals",
+		"next/typescript",
 		"eslint:recommended",
 		"plugin:react/recommended",
 		"plugin:@typescript-eslint/recommended",
@@ -28,10 +29,11 @@
 		},
 	],
 	"rules": {
-		"react/prop-types": "off",
-		"@typescript-eslint/no-empty-function": "off",
-		"react/react-in-jsx-scope": "off",
 		"prettier/prettier": "error",
+		"react/prop-types": "off",
+		"react/react-in-jsx-scope": "off",
+		"@typescript-eslint/no-require-imports": "off",
+		"@typescript-eslint/no-empty-function": "off",
 		"@typescript-eslint/no-unused-vars": "error",
 		"@typescript-eslint/no-explicit-any": "error",
 	},

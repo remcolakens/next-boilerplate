@@ -1,20 +1,17 @@
 import { expect, test } from '@playwright/test';
 
 test.describe('test homepage', () => {
-	test('Find links in DOM', async ({ page }) => {
+	test('Verify page content', async ({ page }) => {
 		await page.goto('/', { waitUntil: 'domcontentloaded' });
 
 		await expect(
-			page.getByRole('link', { name: 'Docs -> Find in-depth' }),
+			page.getByText('Get started by editing src/app/page.tsx'),
 		).toBeVisible();
+
 		await expect(
-			page.getByRole('link', { name: 'Learn -> Learn about Next.js' }),
+			page.getByText('Save and see your changes instantly.'),
 		).toBeVisible();
-		await expect(
-			page.getByRole('link', { name: 'Templates -> Explore starter' }),
-		).toBeVisible();
-		await expect(
-			page.getByRole('link', { name: 'Deploy -> Instantly deploy' }),
-		).toBeVisible();
+
+		await expect(page.getByRole('img', { name: 'Next.js logo' })).toBeVisible();
 	});
 });
