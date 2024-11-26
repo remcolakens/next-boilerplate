@@ -1,3 +1,28 @@
+## [3.3.0](https://github.com/remcolakens/next-boilerplate/compare/v3.2.1...v3.3.0) (2024-11-26)
+
+### 🚀 Features
+
+- add new boilerplate standards ([#144](https://github.com/remcolakens/next-boilerplate/issues/144)) ([09e205e](https://github.com/remcolakens/next-boilerplate/commit/09e205ea05267472f4063dc9c4899e4b23699092))
+- next 15 update ([#134](https://github.com/remcolakens/next-boilerplate/issues/134)) ([c703dcb](https://github.com/remcolakens/next-boilerplate/commit/c703dcbb9400ec6a985ada21f1b670484f84172e))
+
+### 🏡 Chore
+
+- **deps:** update all non-major dependencies ([#128](https://github.com/remcolakens/next-boilerplate/issues/128)) ([9a8acf6](https://github.com/remcolakens/next-boilerplate/commit/9a8acf6d61d5294e30363a2c8782e24aac2f35d2))
+- **deps:** update all non-major dependencies ([#129](https://github.com/remcolakens/next-boilerplate/issues/129)) ([88401c4](https://github.com/remcolakens/next-boilerplate/commit/88401c430de6272ba42c7bb34c091e7ca4bf6068))
+- **deps:** update all non-major dependencies ([#130](https://github.com/remcolakens/next-boilerplate/issues/130)) ([9deccb8](https://github.com/remcolakens/next-boilerplate/commit/9deccb822d26bb12b628eaf92052f4d9cdb9ea3c))
+- **deps:** update all non-major dependencies ([#133](https://github.com/remcolakens/next-boilerplate/issues/133)) ([fc4ac03](https://github.com/remcolakens/next-boilerplate/commit/fc4ac038ef3a8429bbf6bebe36a35a6abe97ef85))
+- **deps:** update all non-major dependencies ([#135](https://github.com/remcolakens/next-boilerplate/issues/135)) ([94ab6e9](https://github.com/remcolakens/next-boilerplate/commit/94ab6e96bcf0a6c44bf423c0f5103ea5e07b7f66))
+- **deps:** update all non-major dependencies ([#136](https://github.com/remcolakens/next-boilerplate/issues/136)) ([86809f4](https://github.com/remcolakens/next-boilerplate/commit/86809f42d7db4d779ee215b9cd4b5e1b02f7c2d8))
+- **deps:** update all non-major dependencies ([#138](https://github.com/remcolakens/next-boilerplate/issues/138)) ([258361d](https://github.com/remcolakens/next-boilerplate/commit/258361d0441343350d38a8ace3d81f5f15364077))
+- **deps:** update all non-major dependencies ([#139](https://github.com/remcolakens/next-boilerplate/issues/139)) ([6a1e0c4](https://github.com/remcolakens/next-boilerplate/commit/6a1e0c4a1bf4ba448b70a7f0ea6f5c5533ff8df0))
+- **deps:** update all non-major dependencies ([#140](https://github.com/remcolakens/next-boilerplate/issues/140)) ([22ab143](https://github.com/remcolakens/next-boilerplate/commit/22ab1431f12c62e9785a33870c16fee0011e4643))
+- **deps:** update all non-major dependencies ([#141](https://github.com/remcolakens/next-boilerplate/issues/141)) ([9dc862c](https://github.com/remcolakens/next-boilerplate/commit/9dc862c9bb2dd026db3b8978fedd1b7cd22c636f))
+- **deps:** update dependency @types/node to v22 ([#137](https://github.com/remcolakens/next-boilerplate/issues/137)) ([4e85fc0](https://github.com/remcolakens/next-boilerplate/commit/4e85fc01d9803d58859812bb4bc84b5d9074dcd4))
+- **deps:** update dependency eslint to v9 ([#132](https://github.com/remcolakens/next-boilerplate/issues/132)) ([560e239](https://github.com/remcolakens/next-boilerplate/commit/560e2399b24e908aa3b8718433772169b0c28711))
+- **deps:** update dependency eslint-plugin-testing-library to v7 ([#142](https://github.com/remcolakens/next-boilerplate/issues/142)) ([ba7a9dc](https://github.com/remcolakens/next-boilerplate/commit/ba7a9dcf000987380037852445cbceff64f91fc7))
+- **deps:** update nextjs monorepo to v15 (major) ([#131](https://github.com/remcolakens/next-boilerplate/issues/131)) ([5624e52](https://github.com/remcolakens/next-boilerplate/commit/5624e5284f46400d495ef8bef244b686e1f584a4))
+- update node version ([#143](https://github.com/remcolakens/next-boilerplate/issues/143)) ([c8a5725](https://github.com/remcolakens/next-boilerplate/commit/c8a5725b3aa074297345bfaf2677387542516d5e))
+
 ## [3.2.1](https://github.com/remcolakens/next-boilerplate/compare/v3.2.0...v3.2.1) (2024-10-09)
 
 ### 🐞 Bug Fixes
