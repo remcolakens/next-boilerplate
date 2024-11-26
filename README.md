@@ -55,8 +55,8 @@
 ├──  LICENSE                  # License information
 ├──  README.md                # README documentation
 ├──  components.json          # Shadcn UI config
-├──  jest.config.js           # Config file for jest
-├──  jest.setup.js            # Used for __tests__/testing-library.js
+├──  vitest.config.ts         # Config file for vitest
+├──  vitest.setup.ts          # Vitest setup file
 ├──  next-env.d.ts            # Next.js Typescript declaration file (leave unchanged)
 ├──  package.json             # The package.json of this project
 ├──  playwright.config.ts     # Config file for playwright
@@ -109,8 +109,7 @@ To learn more about Next.js and the other tools, take a look at the following re
 - [Tailwind CSS](https://tailwindcss.com/docs/) - A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup.
 - [Eslint](https://eslint.org/docs/user-guide) - Find and fix problems in your JavaScript code.
 - [Prettier](https://prettier.io/docs/en/index.html) - Prettier is an opinionated code formatter.
-- [Jest](https://jestjs.io/docs/getting-started) - Jest is a delightful JavaScript Testing Framework with a focus on
-  simplicity.
+- [Vitest](https://vitest.dev/guide/) - A delightful JavaScript Testing Framework with a focus on simplicity.
 - [React Testing Library](https://testing-library.com/docs/) - Simple and complete testing utilities that encourage good
   testing practices
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) - A specification for adding human and machine readable meaning to commit messages
