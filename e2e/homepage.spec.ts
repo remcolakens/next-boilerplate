@@ -1,6 +1,6 @@
 import { expect, test } from '@playwright/test';
 
-test.describe('test homepage', () => {
+test.describe('Test homepage', () => {
 	test('Verify page content', async ({ page }) => {
 		await page.goto('/', { waitUntil: 'domcontentloaded' });
 
