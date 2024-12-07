@@ -1,7 +1,7 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"extends": [
-		"config:base",
+		"config:recommended",
 		"group:allNonMajor",
 		":semanticCommitTypeAll(chore)",
 		"schedule:weekly"
@@ -16,5 +16,5 @@
 			"automerge": true
 		}
 	],
-	"ignoreDeps": ["react", "node"]
+	"ignoreDeps": ["node"]
 }
