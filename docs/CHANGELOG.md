@@ -1,3 +1,18 @@
+## [3.4.0](https://github.com/remcolakens/next-boilerplate/compare/v3.3.0...v3.4.0) (2024-12-07)
+
+### 🚀 Features
+
+- add vitest ([#147](https://github.com/remcolakens/next-boilerplate/issues/147)) ([2e5c69c](https://github.com/remcolakens/next-boilerplate/commit/2e5c69cdf449bff9d484afdb240aa76dd10db6f2))
+
+### 🏡 Chore
+
+- **config:** migrate renovate config ([#151](https://github.com/remcolakens/next-boilerplate/issues/151)) ([8797ac4](https://github.com/remcolakens/next-boilerplate/commit/8797ac47c37134db544ee5ee72d401063c37198c))
+- **deps:** update all non-major dependencies ([#145](https://github.com/remcolakens/next-boilerplate/issues/145)) ([2f096e9](https://github.com/remcolakens/next-boilerplate/commit/2f096e91bee95c5741253c34ec6d72e41eeae2c2))
+- **deps:** update all non-major dependencies ([#148](https://github.com/remcolakens/next-boilerplate/issues/148)) ([7fd3017](https://github.com/remcolakens/next-boilerplate/commit/7fd3017807d795ed5c067915d9d0ee48ffb6276b))
+- **deps:** update all non-major dependencies ([#149](https://github.com/remcolakens/next-boilerplate/issues/149)) ([987b8b3](https://github.com/remcolakens/next-boilerplate/commit/987b8b3317ad76a38c76a5566fed5c20bb59e32b))
+- **deps:** update react monorepo to v19 (major) ([#150](https://github.com/remcolakens/next-boilerplate/issues/150)) ([442e15b](https://github.com/remcolakens/next-boilerplate/commit/442e15ba6728c11d79930d8bc6ffd938c7c1a516))
+- remove React from ignoreDeps ([719fc74](https://github.com/remcolakens/next-boilerplate/commit/719fc7450b4c19a2ed66a81615abff6213700f37))
+
 ## [3.3.0](https://github.com/remcolakens/next-boilerplate/compare/v3.2.1...v3.3.0) (2024-11-26)
 
 ### 🚀 Features
