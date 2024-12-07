@@ -16,5 +16,5 @@
 			"automerge": true
 		}
 	],
-	"ignoreDeps": ["react", "node"]
+	"ignoreDeps": ["node"]
 }
