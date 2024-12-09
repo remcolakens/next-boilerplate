@@ -58,7 +58,7 @@
 		"prettier-plugin-organize-imports": "^4.1.0",
 		"prettier-plugin-tailwindcss": "^0.6.9",
 		"rimraf": "^6.0.1",
-		"semantic-release": "^23.1.1",
+		"semantic-release": "^24.2.0",
 		"shadcn": "^2.1.6",
 		"typescript": "^5.7.2",
 		"vite-tsconfig-paths": "^5.1.4",
