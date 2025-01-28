@@ -30,7 +30,7 @@ jobs:
   test_e2e:
     runs-on: ubuntu-latest
     container:
-      image: mcr.microsoft.com/playwright:v1.50.0-jammy
+      image: mcr.microsoft.com/playwright:v1.50.0-noble
     needs: test_setup
     timeout-minutes: 60
     steps:
