@@ -1,16 +1,22 @@
 import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
-	testMatch: 'e2e/*.spec.ts',
-	testDir: 'e2e',
-	reporter: [['html', { open: 'never', outputFolder: 'e2e/report' }]],
-	outputDir: 'e2e/test-results/',
+	testDir: 'src/e2e',
+	testMatch: 'src/e2e/*.spec.{ts,tsx}',
+	reporter: [
+		[
+			'html',
+			{ open: 'never', outputFolder: 'src/e2e/test_output/playwright-report' },
+		],
+	],
+	outputDir: 'src/e2e/test_output/test-results',
 
 	workers: process.env.CI ? 1 : undefined,
 	fullyParallel: true,
 
 	forbidOnly: process.env.CI ? true : false,
 	retries: process.env.CI ? 3 : 0,
+	maxFailures: 25,
 
 	use: {
 		baseURL: process.env.PLAYWRIGHT_TEST_BASE_URL ?? 'http://localhost:3000',
@@ -35,7 +41,7 @@ export default defineConfig({
 		{
 			name: 'mobile webkit',
 			use: {
-				...devices['iPhone 14'],
+				...devices['iPhone 15'],
 			},
 		},
 		{

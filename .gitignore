@@ -30,8 +30,9 @@ test/**/next-env.d.ts
 test/tmp/**
 test/.trace
 test/traces
-e2e/test-results
-e2e/report
+test-results
+report
+test_output
 
 # Editors
 **/.idea
