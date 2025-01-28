@@ -9,7 +9,7 @@ export default defineConfig({
 			{ open: 'never', outputFolder: 'src/e2e/test_output/playwright-report' },
 		],
 	],
-	outputDir: 'src/e2e/test_output/test-results/',
+	outputDir: 'src/e2e/test_output/test-results',
 
 	workers: process.env.CI ? 1 : undefined,
 	fullyParallel: true,
