@@ -29,19 +29,17 @@
 │   └── CHANGELOG.md          # the changelog
 │   └── ci.md                 # docs for CI
 │   └── commit-convention.md  # docs for commit convention
-├── e2e                       # E2E tests
-│   └── example.spec.ts       # Example E2E test
 ├── public                    # Folder for static assets
 ├── src                       # Source folder
 │   ├── app                   # App folder
 │   ├── components            # Components folder
+│   ├── e2e                   # E2E tests folder
 │   ├── lib                   # Lib folder
 │   └── svgs                  # SVGs folder
 ├── .commitlintrc             # commitlint config (package)
 ├── .czrc                     # Config to commitizen
 ├── .editorconfig             # Config to normalize editors
 ├── .env.example              # Example file with required .env variables
-├── .eslintrc                 # Eslint config
 ├── .gitignore                # Files that will be ignored by git
 ├── .lintstagedrc.js          # Config file for "lint-staged" (package)
 ├── .npmrc                    # Config file for npm
@@ -51,18 +49,19 @@
 ├── .releaserc                # semantic-release config
 ├── .svgrrc                   # config for SVGR
 ├──  CODE_OF_CONDUCT.md       # the CODE OF CONDUCT
-├──  LICENSE                  # License information
-├──  README.md                # README documentation
 ├──  components.json          # Shadcn UI config
-├──  vitest.config.mts        # Config file for vitest
-├──  vitest.setup.ts          # Vitest setup file
+├──  eslint.config.mjs        # Eslint config
+├──  LICENSE                  # License information
 ├──  next-env.d.ts            # Next.js Typescript declaration file (leave unchanged)
 ├──  package.json             # The package.json of this project
 ├──  playwright.config.ts     # Config file for playwright
 ├──  pnpm-lock.yaml           # Lock file for packages (leave unchanged)
 ├──  postcss.config.js        # the postcss config file
+├──  README.md                # README documentation
 ├──  tailwind.config.ts       # the tailwind css config
-└──  tsconfig.json            # Typescript config
+├──  tsconfig.json            # Typescript config
+├──  vitest.config.mts        # Config file for vitest
+└──  vitest.setup.ts          # Vitest setup file
 ```
 
 ## Usage
@@ -77,7 +76,7 @@ If you are new to pnpm you need to [install it on your local machine](https://pn
 pnpm install
 
 # Install playwright for end-to-end tests
-pnpm exec playwright install --with-deps
+pnpm dlx playwright install
 
 # Start local webserver at port 3000
 pnpm dev
