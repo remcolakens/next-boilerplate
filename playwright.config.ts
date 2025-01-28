@@ -1,8 +1,8 @@
 import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
-	testMatch: 'e2e/*.spec.ts',
-	testDir: 'e2e',
+	testMatch: 'src/e2e/*.spec.{ts,tsx}',
+	testDir: 'src/e2e',
 	reporter: [['html', { open: 'never', outputFolder: 'e2e/report' }]],
 	outputDir: 'e2e/test-results/',
 
@@ -35,7 +35,7 @@ export default defineConfig({
 		{
 			name: 'mobile webkit',
 			use: {
-				...devices['iPhone 14'],
+				...devices['iPhone 15'],
 			},
 		},
 		{
