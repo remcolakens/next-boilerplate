@@ -32,6 +32,7 @@ test/.trace
 test/traces
 test-results
 report
+test_output
 
 # Editors
 **/.idea

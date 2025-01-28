@@ -25,7 +25,7 @@ jobs:
         id: waitForVercelPreviewDeployment
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          max_timeout: 300
+          max_timeout: 600
 
   test_e2e:
     runs-on: ubuntu-latest
@@ -45,3 +45,11 @@ jobs:
         run: pnpm test:e2e
         env:
           PLAYWRIGHT_TEST_BASE_URL: ${{ needs.test_setup.outputs.preview_url }}
+
+      - name: Upload test results
+        if: always() && !cancelled()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-test-results
+          path: src/e2e/test_output
+          retention-days: 7
