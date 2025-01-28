@@ -2,7 +2,7 @@ import { FlatCompat } from '@eslint/eslintrc';
 import pluginJs from '@eslint/js';
 import playwright from 'eslint-plugin-playwright';
 import prettierPlugin from 'eslint-plugin-prettier/recommended';
-import tailwind from 'eslint-plugin-tailwindcss';
+// import tailwind from 'eslint-plugin-tailwindcss';
 import testingLibrary from 'eslint-plugin-testing-library';
 
 const compat = new FlatCompat({
@@ -13,7 +13,7 @@ const compat = new FlatCompat({
 /** @type {import('eslint').Linter.Config[]} */
 const eslintConfig = [
 	pluginJs.configs.recommended,
-	...tailwind.configs['flat/recommended'],
+	// ...tailwind.configs['flat/recommended'],
 	...compat.config({
 		extends: ['next/core-web-vitals', 'next/typescript'],
 		rules: {
