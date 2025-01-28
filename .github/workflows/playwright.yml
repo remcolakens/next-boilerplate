@@ -28,6 +28,7 @@ jobs:
           max_timeout: 600
 
   test_e2e:
+    name: Test e2e
     runs-on: ubuntu-latest
     container:
       image: mcr.microsoft.com/playwright:v1.50.0-noble
@@ -44,6 +45,7 @@ jobs:
         run: pnpm test:e2e
         env:
           PLAYWRIGHT_TEST_BASE_URL: ${{ needs.test_setup.outputs.preview_url }}
+          HOME: /root
 
       - name: Upload test results
         if: ${{ !cancelled() }}
