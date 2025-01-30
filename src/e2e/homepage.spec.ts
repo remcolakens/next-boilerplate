@@ -1,7 +1,11 @@
 import { expect, test } from '@playwright/test';
 
-test.describe('Test homepage', () => {
-	test('Verify page content', async ({ page }) => {
+test(
+	'Verify page content',
+	{
+		tag: ['@mobile', '@desktop'],
+	},
+	async ({ page }) => {
 		await page.goto('/', { waitUntil: 'domcontentloaded' });
 
 		await expect(
@@ -13,5 +17,5 @@ test.describe('Test homepage', () => {
 		).toBeVisible();
 
 		await expect(page.getByRole('img', { name: 'Next.js logo' })).toBeVisible();
-	});
-});
+	},
+);

@@ -17,7 +17,7 @@ const eslintConfig = [
 	...compat.config({
 		extends: ['next/core-web-vitals', 'next/typescript'],
 		rules: {
-			'no-console': 'error',
+			'no-console': ['error', { allow: ['error'] }],
 			'react/prop-types': 'off',
 			'react/react-in-jsx-scope': 'off',
 			'@typescript-eslint/no-empty-function': 'off',
