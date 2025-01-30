@@ -26,26 +26,30 @@ export default defineConfig({
 	projects: [
 		{
 			name: 'chromium',
+			grep: /@desktop|@chrome|@chromium/,
 			use: { ...devices['Desktop Chrome'] },
 		},
 
 		{
 			name: 'firefox',
+			grep: /@desktop|@firefox/,
 			use: { ...devices['Desktop Firefox'] },
 		},
-
 		{
 			name: 'webkit',
+			grep: /@desktop|@webkit|@safari/,
 			use: { ...devices['Desktop Safari'] },
 		},
 		{
 			name: 'mobile webkit',
+			grep: /@mobile|@ios/,
 			use: {
 				...devices['iPhone 15'],
 			},
 		},
 		{
 			name: 'mobile chromium',
+			grep: /@mobile|@android/,
 			use: {
 				...devices['Pixel 7'],
 			},
