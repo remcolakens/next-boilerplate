@@ -6,7 +6,7 @@ describe('Home', () => {
 	it('renders Next.js logo', async () => {
 		render(<Home />);
 		const nextSvg = await screen.findByAltText('Next.js logo');
-		expect(nextSvg).toBeTruthy();
+		expect(nextSvg).toBeInTheDocument();
 	});
 
 	it('renders text "Save and see your changes instantly."', async () => {
@@ -14,14 +14,14 @@ describe('Home', () => {
 		const textRow = await screen.findByText(
 			'Save and see your changes instantly.',
 		);
-		expect(textRow).toBeTruthy();
+		expect(textRow).toBeInTheDocument();
 	});
 
 	it('renders deploy link with correct href', async () => {
 		render(<Home />);
 		const deployLink = await screen.findByText('Deploy now');
 		fireEvent.click(deployLink);
-		expect(deployLink).toHaveProperty(
+		expect(deployLink).toHaveAttribute(
 			'href',
 			'https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app',
 		);
@@ -30,7 +30,7 @@ describe('Home', () => {
 	it('renders docs link with correct href', async () => {
 		render(<Home />);
 		const docsLink = await screen.findByText('Read our docs');
-		expect(docsLink).toHaveProperty(
+		expect(docsLink).toHaveAttribute(
 			'href',
 			'https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app',
 		);
