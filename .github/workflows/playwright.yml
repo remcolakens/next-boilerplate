@@ -3,14 +3,20 @@ name: Playwright Tests
 on:
   deployment_status:
 
+if: github.event_name == 'deployment_status' && github.event.deployment_status.state == 'success'
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event.number }}
   cancel-in-progress: true
 
 jobs:
-  test_setup:
-    name: Setup Test Environment
+  run-e2e:
+    name: Test e2e
     runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/playwright:v1.50.0-noble
+    needs: test_setup
+    timeout-minutes: 60
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -18,15 +24,6 @@ jobs:
       - name: Setup
         uses: ./.github/actions/setup
 
-  e2e:
-    name: Test e2e
-    if: github.event_name == 'deployment_status' && github.event.deployment_status.state == 'success'
-    runs-on: ubuntu-latest
-    container:
-      image: mcr.microsoft.com/playwright:v1.50.0-noble
-    needs: test_setup
-    timeout-minutes: 60
-    steps:
       - name: Run tests
         run: pnpm test:e2e
         env:
