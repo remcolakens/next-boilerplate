@@ -1,3 +1,36 @@
+## [3.5.0](https://github.com/remcolakens/next-boilerplate/compare/v3.4.0...v3.5.0) (2025-02-02)
+
+### 🏡 Chores
+
+- **deps:** temporary override conventional-changelog-conventionalcommits to v8 ([#171](https://github.com/remcolakens/next-boilerplate/issues/171)) ([90b8b0e](https://github.com/remcolakens/next-boilerplate/commit/90b8b0e2e03cfbfc81fc96aa104ba05b16a49c86))
+- **deps:** update all non-major dependencies ([#152](https://github.com/remcolakens/next-boilerplate/issues/152)) ([7dbfc6e](https://github.com/remcolakens/next-boilerplate/commit/7dbfc6e730933cef0bec1be5aa7ea1356f4441e9))
+- **deps:** update all non-major dependencies ([#153](https://github.com/remcolakens/next-boilerplate/issues/153)) ([315e43c](https://github.com/remcolakens/next-boilerplate/commit/315e43cf6b5e24e902723b87c7e7fb7bc8e6db30))
+- **deps:** update all non-major dependencies ([#154](https://github.com/remcolakens/next-boilerplate/issues/154)) ([5850cc6](https://github.com/remcolakens/next-boilerplate/commit/5850cc63afbece13d0b4b814f027f90d9f435eac))
+- **deps:** update all non-major dependencies ([#155](https://github.com/remcolakens/next-boilerplate/issues/155)) ([ec8a182](https://github.com/remcolakens/next-boilerplate/commit/ec8a182b1be7fadeca40cae9a606e8ff880654ee))
+- **deps:** update all non-major dependencies ([#156](https://github.com/remcolakens/next-boilerplate/issues/156)) ([3622315](https://github.com/remcolakens/next-boilerplate/commit/3622315bfa724f39fda71d1d0b0fc73f9d39ec61))
+- **deps:** update all non-major dependencies ([#157](https://github.com/remcolakens/next-boilerplate/issues/157)) ([08f4554](https://github.com/remcolakens/next-boilerplate/commit/08f45545c3ea75a04ad2987fa1b3b5ff712aed0b))
+- **deps:** update all non-major dependencies ([#159](https://github.com/remcolakens/next-boilerplate/issues/159)) ([43cd6b6](https://github.com/remcolakens/next-boilerplate/commit/43cd6b644546f46a95e20c0c985618192f19cc24))
+- **deps:** update all non-major dependencies ([#161](https://github.com/remcolakens/next-boilerplate/issues/161)) ([1b096b3](https://github.com/remcolakens/next-boilerplate/commit/1b096b302e289ad3a925f3225f987fb4570c53a4))
+- **deps:** update all non-major dependencies ([#173](https://github.com/remcolakens/next-boilerplate/issues/173)) ([e5caf87](https://github.com/remcolakens/next-boilerplate/commit/e5caf87b2fcd68bb350bdc5396b8597c6abfcb85))
+- **deps:** update dependency eslint-config-prettier to v10 ([#160](https://github.com/remcolakens/next-boilerplate/issues/160)) ([81b53a7](https://github.com/remcolakens/next-boilerplate/commit/81b53a740bcedeee8a543a0b7301120697cb416e))
+- **deps:** update dependency jsdom to v26 ([#158](https://github.com/remcolakens/next-boilerplate/issues/158)) ([9963951](https://github.com/remcolakens/next-boilerplate/commit/9963951e79f9b7db26b97f4062e97d2378ef7ab8))
+- **deps:** update dependency semantic-release to v24 ([#146](https://github.com/remcolakens/next-boilerplate/issues/146)) ([774d876](https://github.com/remcolakens/next-boilerplate/commit/774d8767e00c7a97ec38ea9a54acec1edc6f8ed2))
+- **deps:** update dependency vitest to v3 ([#163](https://github.com/remcolakens/next-boilerplate/issues/163)) ([7c92857](https://github.com/remcolakens/next-boilerplate/commit/7c92857bca2608c3035ab928f9bc50e3d7cb131a))
+- optimize vitest.config ([86668fd](https://github.com/remcolakens/next-boilerplate/commit/86668fddca438e78c19017cf11bde452b5f6ed17))
+- update playwright workflow ([#172](https://github.com/remcolakens/next-boilerplate/issues/172)) ([b82e3e9](https://github.com/remcolakens/next-boilerplate/commit/b82e3e9239e80edce8ca310fbfb3e8a225ff0b0e))
+- version lock dependencies ([#169](https://github.com/remcolakens/next-boilerplate/issues/169)) ([48f16d0](https://github.com/remcolakens/next-boilerplate/commit/48f16d0a5636017b112b94b5cdbd396f7443f843))
+
+### 🚀 Features
+
+- add flat config ([#164](https://github.com/remcolakens/next-boilerplate/issues/164)) ([fa84ead](https://github.com/remcolakens/next-boilerplate/commit/fa84ead3ad856811a259020bb5659ba62e5820bf))
+- add playwright container ([#167](https://github.com/remcolakens/next-boilerplate/issues/167)) ([18cf12e](https://github.com/remcolakens/next-boilerplate/commit/18cf12eedcb95bd990b1273b66dad64c76418d13))
+- add scope tests ([#168](https://github.com/remcolakens/next-boilerplate/issues/168)) ([fbf9ce7](https://github.com/remcolakens/next-boilerplate/commit/fbf9ce762eadceffaa8bcccf6a947e81f15cd480))
+- update vitest ([#170](https://github.com/remcolakens/next-boilerplate/issues/170)) ([db1539c](https://github.com/remcolakens/next-boilerplate/commit/db1539c9069db5f7e90c18f8bc659d4646e65538))
+
+### 🐞 Bug Fixes
+
+- clean script ([f99d708](https://github.com/remcolakens/next-boilerplate/commit/f99d70830087c692b1200c4b8246a8c175295b6f))
+
 ## [3.4.0](https://github.com/remcolakens/next-boilerplate/compare/v3.3.0...v3.4.0) (2024-12-07)
 
 ### 🚀 Features
