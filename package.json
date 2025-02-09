@@ -19,6 +19,7 @@
 		"release": "semantic-release",
 		"start": "next start",
 		"test": "vitest run",
+		"test:coverage": "vitest run --coverage",
 		"test:e2e": "playwright test"
 	},
 	"devDependencies": {
