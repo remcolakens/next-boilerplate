@@ -7,14 +7,12 @@ describe('cn utility', () => {
 		expect(cn('flex', 'items-center')).toBe('flex items-center');
 
 		// Test with conditional classes
-		const isVisible = true;
-		const isInvisible = false;
-		expect(
-			cn('flex', isVisible ? 'visible' : '', isInvisible ? 'invisible' : ''),
-		).toBe('flex visible');
+		const isOpen = true;
+		expect(cn('flex', isOpen && 'visible')).toBe('flex visible');
 
 		// Test with Tailwind conflicts (should merge properly)
 		expect(cn('px-2 py-1', 'px-4')).toBe('py-1 px-4');
+		expect(cn('text-red-500', 'text-blue-500')).toBe('text-blue-500');
 
 		// Test with undefined/null values
 		expect(cn('flex', undefined, null, 'gap-2')).toBe('flex gap-2');
