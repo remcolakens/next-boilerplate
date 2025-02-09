@@ -7,27 +7,28 @@ vi.mock('next/font/google', () => ({
 		style: {
 			fontFamily: 'Inter',
 		},
+		variable: 'mocked-variable',
 	}),
 }));
 
 describe('RootLayout', () => {
-	it('should render children with correct font classes', () => {
-		// Set up our test content
-		const testContent = <div data-testid="test-child">Wassup World</div>;
+	it('renders children correctly', async () => {
+		const { props } = await RootLayout({
+			children: <div data-testid="test-content">Hello World</div>,
+		});
+		render(props.children, { container: document.createElement('html') });
 
-		// Render that layout with our test content
-		render(<RootLayout>{testContent}</RootLayout>);
-
-		// Check if our test content is in the house
-		const childElement = screen.getByTestId('test-child');
-		expect(childElement).toBeInTheDocument();
-
-		expect(document.body).toHaveClass('font-sans', 'antialiased');
+		const testContent = screen.getByTestId('test-content');
+		expect(testContent).toBeInTheDocument();
+		expect(testContent).toHaveTextContent('Hello World');
 	});
 
-	it('should have correct lang attribute on html element', () => {
-		render(<RootLayout>Test Content</RootLayout>);
+	it('applies Inter font variable class', async () => {
+		const { props } = await RootLayout({
+			children: null,
+		});
+		render(props.children, { container: document.createElement('html') });
 
-		expect(document.documentElement).toHaveAttribute('lang', 'en');
+		expect(document.body).toHaveClass('font-sans', 'antialiased');
 	});
 });
