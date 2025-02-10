@@ -9,7 +9,7 @@ export default defineConfig({
 		globals: true,
 		environment: 'jsdom',
 		coverage: {
-			include: ['src/**'],
+			include: ['src/components/**', 'src/hooks/**', 'src/lib/**'],
 			exclude: ['src/svgs', 'src/e2e'],
 			// thresholds: {
 			// 	statements: 80,
