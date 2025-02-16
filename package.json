@@ -19,6 +19,7 @@
 		"release": "semantic-release",
 		"start": "next start",
 		"test": "vitest run",
+		"test:coverage": "vitest run --coverage",
 		"test:e2e": "playwright test"
 	},
 	"devDependencies": {
@@ -39,6 +40,8 @@
 		"@types/react": "19.0.8",
 		"@types/react-dom": "19.0.3",
 		"@vitejs/plugin-react": "4.3.4",
+		"@vitest/coverage-v8": "3.0.4",
+		"@vitest/ui": "3.0.4",
 		"autoprefixer": "10.4.20",
 		"commitizen": "4.3.1",
 		"eslint": "9.20.0",
