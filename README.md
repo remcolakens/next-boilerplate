@@ -58,7 +58,6 @@
 ├──  pnpm-lock.yaml           # Lock file for packages (leave unchanged)
 ├──  postcss.config.js        # the postcss config file
 ├──  README.md                # README documentation
-├──  tailwind.config.ts       # the tailwind css config
 ├──  tsconfig.json            # Typescript config
 ├──  vitest.config.mts        # Config file for vitest
 └──  vitest.setup.ts          # Vitest setup file
