@@ -1,3 +1,27 @@
+## [4.0.0](https://github.com/remcolakens/next-boilerplate/compare/v3.5.0...v4.0.0) (2025-03-09)
+
+### ⚠ BREAKING CHANGES
+
+- This upgrade may cause styling issues when using Tailwind CSS v3 syntax. Please
+  refer to the official upgrade guide for more details on required adjustments.
+
+### 🏡 Chores
+
+- adjust release config ([8cb6cc7](https://github.com/remcolakens/next-boilerplate/commit/8cb6cc7ec30d182e5b72376cb18e205c3acda5e9))
+- **deps:** update all non-major dependencies ([#176](https://github.com/remcolakens/next-boilerplate/issues/176)) ([332639a](https://github.com/remcolakens/next-boilerplate/commit/332639a695c9e740185aaa1f1ad127fa7ce8849e))
+- **deps:** update all non-major dependencies ([#178](https://github.com/remcolakens/next-boilerplate/issues/178)) ([121c791](https://github.com/remcolakens/next-boilerplate/commit/121c791b92d9533cbc19dbadc91d079810074362))
+- **deps:** update all non-major dependencies ([#180](https://github.com/remcolakens/next-boilerplate/issues/180)) ([025f935](https://github.com/remcolakens/next-boilerplate/commit/025f935b819b29467a94b869c523c60294aea66e))
+- **deps:** update all non-major dependencies ([#182](https://github.com/remcolakens/next-boilerplate/issues/182)) ([6cdf87b](https://github.com/remcolakens/next-boilerplate/commit/6cdf87b0ae38b3c3c8e403730747cecac462f59c))
+- **deps:** update dependency tailwindcss to v4 ([#166](https://github.com/remcolakens/next-boilerplate/issues/166)) ([03c46ee](https://github.com/remcolakens/next-boilerplate/commit/03c46eeb4f3d1df1ea69f7f3f9dcaaaf1289a716))
+- **deps:** update pnpm to v10 ([#179](https://github.com/remcolakens/next-boilerplate/issues/179)) ([4c9c07c](https://github.com/remcolakens/next-boilerplate/commit/4c9c07cea124edaf066f1ee0b617cc28f920e7aa))
+- fix playwright cancel ([#174](https://github.com/remcolakens/next-boilerplate/issues/174)) ([26fc21b](https://github.com/remcolakens/next-boilerplate/commit/26fc21b8ae0eb1d181a0e4155a3fbca1b193edbe))
+- organize Tailwind css config ([11a178c](https://github.com/remcolakens/next-boilerplate/commit/11a178c8bbbff7a0539ef67f544799cab60ececb))
+- remove autoprefixer ([e510e60](https://github.com/remcolakens/next-boilerplate/commit/e510e60007988abaa7a2a329213dcbf359512a60))
+
+### 🚀 Features
+
+- add vitest coverage ([#175](https://github.com/remcolakens/next-boilerplate/issues/175)) ([a6731ed](https://github.com/remcolakens/next-boilerplate/commit/a6731ed3fce9ea3babb26fbbb334fa22f1ccaf48))
+
 ## [3.5.0](https://github.com/remcolakens/next-boilerplate/compare/v3.4.0...v3.5.0) (2025-02-02)
 
 ### 🏡 Chores
