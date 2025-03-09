@@ -9,7 +9,6 @@
 		"dev": "next dev --turbo",
 		"format": "prettier --write .",
 		"generate:svg": "pnpm svgr ./src/svgs/src",
-		"generate:component": "pnpm shadcn add",
 		"generate": "generate",
 		"lint:eslint": "next lint",
 		"lint:typescript": "tsc --noEmit",
@@ -33,6 +32,7 @@
 		"@semantic-release/changelog": "6.0.3",
 		"@semantic-release/git": "10.0.1",
 		"@svgr/cli": "8.1.0",
+		"@tailwindcss/postcss": "4.0.12",
 		"@testing-library/jest-dom": "6.6.3",
 		"@testing-library/react": "16.2.0",
 		"@testing-library/user-event": "14.6.1",
@@ -48,7 +48,6 @@
 		"eslint-config-next": "15.1.7",
 		"eslint-plugin-playwright": "2.2.0",
 		"eslint-plugin-prettier": "5.2.3",
-		"eslint-plugin-tailwindcss": "3.18.0",
 		"eslint-plugin-testing-library": "7.1.1",
 		"husky": "9.1.7",
 		"inquirer": "10.2.2",
@@ -60,8 +59,7 @@
 		"prettier-plugin-tailwindcss": "0.6.11",
 		"rimraf": "6.0.1",
 		"semantic-release": "24.2.3",
-		"shadcn": "2.3.0",
-		"tailwindcss": "3.4.17",
+		"tailwindcss": "4.0.12",
 		"typescript": "5.7.3",
 		"vite-tsconfig-paths": "5.1.4",
 		"vitest": "3.0.6"
@@ -74,7 +72,7 @@
 		"react": "19.0.0",
 		"react-dom": "19.0.0",
 		"react-use": "17.6.0",
-		"tailwind-merge": "2.6.0",
+		"tailwind-merge": "3.0.1",
 		"tailwindcss-animate": "1.0.7"
 	},
 	"engines": {
