@@ -18,10 +18,6 @@
 						"release": "patch"
 					},
 					{
-						"type": "chore",
-						"release": "patch"
-					},
-					{
 						"type": "docs",
 						"release": "patch"
 					}
