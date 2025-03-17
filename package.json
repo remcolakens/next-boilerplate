@@ -32,7 +32,7 @@
 		"@semantic-release/changelog": "6.0.3",
 		"@semantic-release/git": "10.0.1",
 		"@svgr/cli": "8.1.0",
-		"@tailwindcss/postcss": "4.0.12",
+		"@tailwindcss/postcss": "4.0.14",
 		"@testing-library/jest-dom": "6.6.3",
 		"@testing-library/react": "16.2.0",
 		"@testing-library/user-event": "14.6.1",
@@ -44,21 +44,21 @@
 		"@vitest/ui": "3.0.8",
 		"commitizen": "4.3.1",
 		"eslint": "9.22.0",
-		"eslint-config-next": "15.2.1",
+		"eslint-config-next": "15.2.2",
 		"eslint-plugin-playwright": "2.2.0",
 		"eslint-plugin-prettier": "5.2.3",
 		"eslint-plugin-testing-library": "7.1.1",
 		"husky": "9.1.7",
 		"inquirer": "10.2.2",
 		"jsdom": "26.0.0",
-		"lint-staged": "15.4.3",
+		"lint-staged": "15.5.0",
 		"postcss": "8.5.3",
 		"prettier": "3.5.3",
 		"prettier-plugin-organize-imports": "4.1.0",
 		"prettier-plugin-tailwindcss": "0.6.11",
 		"rimraf": "6.0.1",
 		"semantic-release": "24.2.3",
-		"tailwindcss": "4.0.12",
+		"tailwindcss": "4.0.14",
 		"typescript": "5.8.2",
 		"vite-tsconfig-paths": "5.1.4",
 		"vitest": "3.0.8"
@@ -66,8 +66,8 @@
 	"dependencies": {
 		"class-variance-authority": "0.7.1",
 		"clsx": "2.1.1",
-		"lucide-react": "0.479.0",
-		"next": "15.2.1",
+		"lucide-react": "0.482.0",
+		"next": "15.2.2",
 		"react": "19.0.0",
 		"react-dom": "19.0.0",
 		"react-use": "17.6.0",
@@ -77,7 +77,7 @@
 	"engines": {
 		"node": "22.x"
 	},
-	"packageManager": "pnpm@10.6.1",
+	"packageManager": "pnpm@10.6.3",
 	"pnpm": {
 		"overrides": {
 			"conventional-changelog-conventionalcommits": ">=8.0.0"
