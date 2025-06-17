@@ -1,3 +1,30 @@
+## [4.0.1](https://github.com/remcolakens/next-boilerplate/compare/v4.0.0...v4.0.1) (2025-06-17)
+
+### 🏡 Chores
+
+- **deps:** update all non-major dependencies ([#183](https://github.com/remcolakens/next-boilerplate/issues/183)) ([7f205a0](https://github.com/remcolakens/next-boilerplate/commit/7f205a049e3ac1d28f5434853e0075e48b808d04))
+- **deps:** update all non-major dependencies ([#184](https://github.com/remcolakens/next-boilerplate/issues/184)) ([67574ce](https://github.com/remcolakens/next-boilerplate/commit/67574ce4e2ec0e125947f59b78df7874311532e1))
+- **deps:** update all non-major dependencies ([#185](https://github.com/remcolakens/next-boilerplate/issues/185)) ([a31a20a](https://github.com/remcolakens/next-boilerplate/commit/a31a20af3fd5c435c51880c5b1193410dd37157d))
+- **deps:** update all non-major dependencies ([#186](https://github.com/remcolakens/next-boilerplate/issues/186)) ([7af3c8f](https://github.com/remcolakens/next-boilerplate/commit/7af3c8f22c80d823af8d78a2fb1a48cb34ca9be4))
+- **deps:** update all non-major dependencies ([#187](https://github.com/remcolakens/next-boilerplate/issues/187)) ([1923188](https://github.com/remcolakens/next-boilerplate/commit/192318892ef41bda612b9439045533e6d4c5adb4))
+- **deps:** update all non-major dependencies ([#188](https://github.com/remcolakens/next-boilerplate/issues/188)) ([a082695](https://github.com/remcolakens/next-boilerplate/commit/a082695ecf4e1a8e27d1e187122c48c6fb17d8e8))
+- **deps:** update all non-major dependencies ([#189](https://github.com/remcolakens/next-boilerplate/issues/189)) ([cdddff7](https://github.com/remcolakens/next-boilerplate/commit/cdddff71196807318b1126697ba7af1b2412a4de))
+- **deps:** update all non-major dependencies ([#190](https://github.com/remcolakens/next-boilerplate/issues/190)) ([8698a4e](https://github.com/remcolakens/next-boilerplate/commit/8698a4ecd36b9713fa8546e2b35b9c9936fa340b))
+- **deps:** update all non-major dependencies ([#191](https://github.com/remcolakens/next-boilerplate/issues/191)) ([cb28eec](https://github.com/remcolakens/next-boilerplate/commit/cb28eece1b220d348927cee92187a7823f0ffda4))
+- **deps:** update all non-major dependencies ([#193](https://github.com/remcolakens/next-boilerplate/issues/193)) ([58a92b8](https://github.com/remcolakens/next-boilerplate/commit/58a92b81ed265727c40d80a7979cd485d6871fe1))
+- **deps:** update all non-major dependencies ([#194](https://github.com/remcolakens/next-boilerplate/issues/194)) ([e4a332e](https://github.com/remcolakens/next-boilerplate/commit/e4a332e7f9ea7ad5aa53015ce09bdbe0c65ee9a6))
+- **deps:** update all non-major dependencies ([#196](https://github.com/remcolakens/next-boilerplate/issues/196)) ([83da021](https://github.com/remcolakens/next-boilerplate/commit/83da02148ee1fa88d0865989f3b61574b91c8552))
+- **deps:** update all non-major dependencies ([#197](https://github.com/remcolakens/next-boilerplate/issues/197)) ([62b393e](https://github.com/remcolakens/next-boilerplate/commit/62b393e257c6df3387103edee3fb2158de44e097))
+- **deps:** update dependency lint-staged to v16 ([#192](https://github.com/remcolakens/next-boilerplate/issues/192)) ([24e3366](https://github.com/remcolakens/next-boilerplate/commit/24e3366522c3eff0898ff403407043911e25692c))
+
+### 🐞 Bug Fixes
+
+- update components.json ([1dffb5a](https://github.com/remcolakens/next-boilerplate/commit/1dffb5a261736e360d7b64cc09e81bed6e01ff59))
+
+### ⏪ Reverts
+
+- Revert "chore: adjust release config" ([7831a43](https://github.com/remcolakens/next-boilerplate/commit/7831a43b960cc8cebc3334065812d6c91e6f11e9))
+
 ## [4.0.0](https://github.com/remcolakens/next-boilerplate/compare/v3.5.0...v4.0.0) (2025-03-09)
 
 ### ⚠ BREAKING CHANGES
