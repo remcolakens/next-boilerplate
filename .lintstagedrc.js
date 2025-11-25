@@ -6,9 +6,9 @@ module.exports = {
 
 	// Lint then format TypeScript and JavaScript files
 	'*.(ts|tsx|js)': (filenames) => [
-		`next lint --file ${filenames
-			.map((f) => path.relative(process.cwd(), f))
-			.join(' --file ')}`,
+		`eslint --fix ${filenames
+			.map((f) => `"${path.relative(process.cwd(), f)}"`)
+			.join(' ')}`,
 		`prettier --write ${filenames.join(' ')}`,
 	],
 
