@@ -48,9 +48,6 @@ importers:
       '@commitlint/cz-commitlint':
         specifier: 20.1.0
         version: 20.1.0(@types/node@24.10.1)(commitizen@4.3.1(@types/node@24.10.1)(typescript@5.9.3))(inquirer@10.2.2)(typescript@5.9.3)
-      '@eslint/eslintrc':
-        specifier: 3.3.1
-        version: 3.3.1
       '@eslint/js':
         specifier: 9.39.1
         version: 9.39.1
