@@ -1,5 +1,5 @@
 import nextVitals from 'eslint-config-next/core-web-vitals';
-import nextTypescript from 'eslint-config-next/typescript';
+import nextTs from 'eslint-config-next/typescript';
 import playwright from 'eslint-plugin-playwright';
 import prettier from 'eslint-plugin-prettier/flat';
 import testingLibrary from 'eslint-plugin-testing-library';
@@ -7,7 +7,7 @@ import testingLibrary from 'eslint-plugin-testing-library';
 /** @type {import('eslint').Linter.Config[]} */
 const eslintConfig = [
 	...nextVitals,
-	...nextTypescript,
+	...nextTs,
 
 	{
 		rules: {
