@@ -1,21 +1,15 @@
-import { FlatCompat } from '@eslint/eslintrc';
-import pluginJs from '@eslint/js';
+import nextVitals from 'eslint-config-next/core-web-vitals';
+import nextTs from 'eslint-config-next/typescript';
 import playwright from 'eslint-plugin-playwright';
 import prettierPlugin from 'eslint-plugin-prettier/recommended';
-// import tailwind from 'eslint-plugin-tailwindcss';
 import testingLibrary from 'eslint-plugin-testing-library';
-
-const compat = new FlatCompat({
-	// import.meta.dirname is available after Node.js v20.11.0
-	baseDirectory: import.meta.dirname,
-});
 
 /** @type {import('eslint').Linter.Config[]} */
 const eslintConfig = [
-	pluginJs.configs.recommended,
-	// ...tailwind.configs['flat/recommended'],
-	...compat.config({
-		extends: ['next/core-web-vitals', 'next/typescript'],
+	...nextVitals,
+	...nextTs,
+
+	{
 		rules: {
 			'no-console': ['error', { allow: ['error'] }],
 			'react/prop-types': 'off',
@@ -24,7 +18,7 @@ const eslintConfig = [
 			'@typescript-eslint/no-unused-vars': 'error',
 			'@typescript-eslint/no-explicit-any': 'error',
 		},
-	}),
+	},
 	{
 		...testingLibrary.configs['flat/react'],
 		files: ['src/**/*.test.{ts,tsx}'],
@@ -41,6 +35,16 @@ const eslintConfig = [
 		rules: {
 			'prettier/prettier': 'error',
 		},
+	},
+	{
+		ignores: [
+			'.lintstagedrc.js',
+			'node_modules/**',
+			'.next/**',
+			'out/**',
+			'build/**',
+			'next-env.d.ts',
+		],
 	},
 ];
 
