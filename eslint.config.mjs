@@ -1,12 +1,12 @@
-import nextCoreWebVitals from 'eslint-config-next/core-web-vitals';
+import nextVitals from 'eslint-config-next/core-web-vitals';
 import nextTypescript from 'eslint-config-next/typescript';
 import playwright from 'eslint-plugin-playwright';
-import prettierPlugin from 'eslint-plugin-prettier/recommended';
+import prettier from 'eslint-plugin-prettier/flat';
 import testingLibrary from 'eslint-plugin-testing-library';
 
 /** @type {import('eslint').Linter.Config[]} */
 const eslintConfig = [
-	...nextCoreWebVitals,
+	...nextVitals,
 	...nextTypescript,
 
 	{
@@ -31,7 +31,7 @@ const eslintConfig = [
 		},
 	},
 	{
-		...prettierPlugin,
+		...prettier,
 		rules: {
 			'prettier/prettier': 'error',
 		},
