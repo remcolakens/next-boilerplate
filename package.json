@@ -22,9 +22,9 @@
 		"test:e2e": "playwright test"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "20.1.0",
-		"@commitlint/config-conventional": "20.0.0",
-		"@commitlint/cz-commitlint": "20.1.0",
+		"@commitlint/cli": "20.2.0",
+		"@commitlint/config-conventional": "20.2.0",
+		"@commitlint/cz-commitlint": "20.2.0",
 		"@eslint/js": "9.39.1",
 		"@playwright/test": "1.57.0",
 		"@remcolakens/simple-component-generator": "1.0.5",
@@ -66,7 +66,7 @@
 	"dependencies": {
 		"class-variance-authority": "0.7.1",
 		"clsx": "2.1.1",
-		"lucide-react": "0.555.0",
+		"lucide-react": "0.556.0",
 		"next": "16.0.7",
 		"react": "19.2.1",
 		"react-dom": "19.2.1",
