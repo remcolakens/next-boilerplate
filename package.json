@@ -33,21 +33,21 @@
 		"@svgr/cli": "8.1.0",
 		"@tailwindcss/postcss": "4.1.18",
 		"@testing-library/jest-dom": "6.9.1",
-		"@testing-library/react": "16.3.0",
+		"@testing-library/react": "16.3.1",
 		"@testing-library/user-event": "14.6.1",
 		"@types/node": "24.10.4",
 		"@types/react": "19.2.7",
 		"@types/react-dom": "19.2.3",
 		"@vitejs/plugin-react": "5.1.2",
-		"@vitest/coverage-v8": "4.0.15",
-		"@vitest/ui": "4.0.15",
+		"@vitest/coverage-v8": "4.0.16",
+		"@vitest/ui": "4.0.16",
 		"commitizen": "4.3.1",
 		"eslint": "9.39.2",
-		"eslint-config-next": "16.0.10",
+		"eslint-config-next": "16.1.0",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-playwright": "2.4.0",
 		"eslint-plugin-prettier": "5.5.4",
-		"eslint-plugin-testing-library": "7.13.6",
+		"eslint-plugin-testing-library": "7.15.1",
 		"husky": "9.1.7",
 		"inquirer": "10.2.2",
 		"jsdom": "27.3.0",
@@ -61,13 +61,13 @@
 		"tailwindcss": "4.1.18",
 		"typescript": "5.9.3",
 		"vite-tsconfig-paths": "5.1.4",
-		"vitest": "4.0.15"
+		"vitest": "4.0.16"
 	},
 	"dependencies": {
 		"class-variance-authority": "0.7.1",
 		"clsx": "2.1.1",
-		"lucide-react": "0.561.0",
-		"next": "16.0.10",
+		"lucide-react": "0.562.0",
+		"next": "16.1.0",
 		"react": "19.2.3",
 		"react-dom": "19.2.3",
 		"react-use": "17.6.0",
@@ -77,7 +77,7 @@
 	"engines": {
 		"node": "24.x"
 	},
-	"packageManager": "pnpm@10.25.0",
+	"packageManager": "pnpm@10.26.1",
 	"pnpm": {
 		"overrides": {
 			"conventional-changelog-conventionalcommits": ">=8.0.0"
