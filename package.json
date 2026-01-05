@@ -22,9 +22,9 @@
 		"test:e2e": "playwright test"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "20.2.0",
-		"@commitlint/config-conventional": "20.2.0",
-		"@commitlint/cz-commitlint": "20.2.0",
+		"@commitlint/cli": "20.3.0",
+		"@commitlint/config-conventional": "20.3.0",
+		"@commitlint/cz-commitlint": "20.3.0",
 		"@eslint/js": "9.39.2",
 		"@playwright/test": "1.57.0",
 		"@remcolakens/simple-component-generator": "1.0.5",
@@ -47,7 +47,7 @@
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-playwright": "2.4.0",
 		"eslint-plugin-prettier": "5.5.4",
-		"eslint-plugin-testing-library": "7.15.3",
+		"eslint-plugin-testing-library": "7.15.4",
 		"husky": "9.1.7",
 		"inquirer": "10.2.2",
 		"jsdom": "27.4.0",
@@ -77,7 +77,7 @@
 	"engines": {
 		"node": "24.x"
 	},
-	"packageManager": "pnpm@10.26.2",
+	"packageManager": "pnpm@10.27.0",
 	"pnpm": {
 		"overrides": {
 			"conventional-changelog-conventionalcommits": ">=8.0.0"
