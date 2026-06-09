@@ -2,5 +2,6 @@ minimumReleaseAge: 0
 allowBuilds:
   esbuild: true
   sharp: true
+  unrs-resolver: true
 overrides:
   conventional-changelog-conventionalcommits: '>=8.0.0'
