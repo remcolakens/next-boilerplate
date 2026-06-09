@@ -8,6 +8,7 @@
 	],
 	"labels": ["dependencies"],
 	"rangeStrategy": "bump",
+	"minimumReleaseAge": "3 days",
 	"timezone": "Europe/Amsterdam",
 	"packageRules": [
 		{
