@@ -1,3 +1,4 @@
+import { fixupConfigRules } from '@eslint/compat';
 import nextVitals from 'eslint-config-next/core-web-vitals';
 import nextTs from 'eslint-config-next/typescript';
 import playwright from 'eslint-plugin-playwright';
@@ -6,8 +7,8 @@ import testingLibrary from 'eslint-plugin-testing-library';
 
 /** @type {import('eslint').Linter.Config[]} */
 const eslintConfig = [
-	...nextVitals,
-	...nextTs,
+	...fixupConfigRules(nextVitals),
+	...fixupConfigRules(nextTs),
 
 	{
 		rules: {
@@ -43,6 +44,7 @@ const eslintConfig = [
 			'.next/**',
 			'out/**',
 			'build/**',
+			'coverage/**',
 			'next-env.d.ts',
 		],
 	},
