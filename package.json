@@ -77,10 +77,5 @@
 	"engines": {
 		"node": "24.x"
 	},
-	"packageManager": "pnpm@11.5.2",
-	"pnpm": {
-		"overrides": {
-			"conventional-changelog-conventionalcommits": ">=8.0.0"
-		}
-	}
+	"packageManager": "pnpm@11.5.2"
 }

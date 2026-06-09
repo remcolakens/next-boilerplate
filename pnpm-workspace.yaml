@@ -1,0 +1,6 @@
+minimumReleaseAge: 0
+allowBuilds:
+  esbuild: true
+  sharp: true
+overrides:
+  conventional-changelog-conventionalcommits: '>=8.0.0'
