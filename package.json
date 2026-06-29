@@ -22,12 +22,12 @@
 		"test:e2e": "playwright test"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "21.0.2",
-		"@commitlint/config-conventional": "21.0.2",
-		"@commitlint/cz-commitlint": "21.0.2",
+		"@commitlint/cli": "21.1.0",
+		"@commitlint/config-conventional": "21.1.0",
+		"@commitlint/cz-commitlint": "21.1.0",
 		"@eslint/compat": "2.1.0",
 		"@eslint/js": "10.0.1",
-		"@playwright/test": "1.61.0",
+		"@playwright/test": "1.61.1",
 		"@remcolakens/simple-component-generator": "1.0.5",
 		"@semantic-release/changelog": "6.0.3",
 		"@semantic-release/git": "10.0.1",
@@ -39,7 +39,7 @@
 		"@types/node": "24.13.2",
 		"@types/react": "19.2.17",
 		"@types/react-dom": "19.2.3",
-		"@vitejs/plugin-react": "6.0.2",
+		"@vitejs/plugin-react": "6.0.3",
 		"@vitest/coverage-v8": "4.1.9",
 		"@vitest/ui": "4.1.9",
 		"commitizen": "4.3.2",
@@ -52,7 +52,7 @@
 		"husky": "9.1.7",
 		"inquirer": "10.2.2",
 		"jsdom": "29.1.1",
-		"lint-staged": "17.0.7",
+		"lint-staged": "17.0.8",
 		"postcss": "8.5.15",
 		"prettier": "3.8.4",
 		"prettier-plugin-organize-imports": "4.3.0",
@@ -78,5 +78,5 @@
 	"engines": {
 		"node": "24.x"
 	},
-	"packageManager": "pnpm@11.8.0"
+	"packageManager": "pnpm@11.9.0"
 }
